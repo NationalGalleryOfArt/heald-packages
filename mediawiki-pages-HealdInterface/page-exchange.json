@@ -65,16 +65,6 @@
                     "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadgets-definition.mediawiki"
                 },
                 {
-                    "name": "Gadgets\/MediaWiki:Gadget-DotsSyntaxHighlighter",
-                    "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadgets%7CMediaWiki%3AGadget-DotsSyntaxHighlighter.mediawiki"
-                },
-                {
-                    "name": "Gadgets\/MediaWiki:Gadget-DotsSyntaxHighlighter.js",
-                    "namespace": "NS_MEDIAWIKI",
-                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadgets%7CMediaWiki%3AGadget-DotsSyntaxHighlighter.js.mediawiki"
-                },
-                {
                     "name": "Group-sysop.css",
                     "namespace": "NS_MEDIAWIKI",
                     "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGroup-sysop.css.mediawiki"
