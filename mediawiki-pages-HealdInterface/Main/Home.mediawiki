@@ -1,0 +1,24 @@
+{{break}}
+===''Welcome''===
+The ''History of Early American Landscape Design'' digital resource represents an inquiry into the language of early American landscape aesthetics and garden design in the colonial and national periods. Thousands of texts are combined with a corpus of more than 1700 images in order to trace the development of landscape and garden terminology from British colonial America to the mid-19th century. By placing terms in relation to representations in the visual record, the project clarifies and corrects their meanings, providing for more “accurate” histories of designed landscapes in early America.
+
+The project is organized by 100 keywords, supported by 100 featured places and historical figures. Without claiming to be comprehensive, this project models an approach to the study of landscapes and gardens that helps scholars consider past cultural conditions, uncover former appearances, and better understand the experiences and meanings of designed environments as they were built, and also as they were imagined. 
+
+{{break}}
+{{Showcase main}}
+{{break}}
+
+===''Introductory Essays''===
+{{:Essays}}
+{{break}}
+Read more about CASVA [https://www.nga.gov/research/casva/research-projects.html research projects].
+
+<div style="font-size:14px; font-family: sans-serif; color:#777777; line-height:2em;">Banner Images:</div>
+
+<div style="font-size:14px; font-family: sans-serif; line-height:2em;">[[:File:0464.jpg|Nicolino Calyo, ''Harlem, the Country House of Dr. Edmondson'', 1834]]<br>
+
+<div style="font-size:14px; font-family: sans-serif;">[[:File:1213.jpg|C. A. Hedin, “Front Elevation on Live Oak Street,” 1853]]<br></div>
+
+<div style="font-size:14px; font-family: sans-serif;">[[:File:0072.jpg|Thomas Jefferson, Plan of an orchard at Monticello, c. 1778]]<br></div>
+
+<div style="font-size:14px; font-family: sans-serif;">[[:File:0033.jpg|Robert Mills, ''Plan of the Mall'', Washington, DC, 1841]]</div>

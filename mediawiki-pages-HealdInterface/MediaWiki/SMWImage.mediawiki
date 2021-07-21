@@ -1,0 +1,84 @@
+{{NUMBEROFARTICLES}}
+
+{{Image Metadata
+|Artist=Charles Willson Peale
+|Title=Pretty Landscape
+|Date=1850
+|Repository=That Place
+}}
+
+Semantic Mediawiki Image Test
+{{ #ask: [[Category: Image]] | format=gallery }}
+
+{{ #ask: [[Category: People]] | ?Has image | format=gallery | imageproperty=Has image }}
+
+{{ #ask: [[Category: People]] 
+| ?Has image
+| imageproperty=Has image
+| format=datatable
+}}
+
+{{#ask:[[Category: People]]
+|?Has image
+|format=tagcloud
+|limit=250
+|link=""
+|headers=show
+|searchlabel=… further results
+|tagorder=alphabetical
+|increase=log
+|widget=sphere
+|font=sans
+|height=900
+|width=1000
+|mincount=1
+|minsize=70
+|maxsize=220
+|maxtags=1000
+}}
+
+{{#ask:[[Category: People]]
+|?Has image
+|format=tagcloud
+|limit=250
+|link=""
+|headers=show
+|searchlabel=… further results
+|tagorder=alphabetical
+|increase=log
+|font=sans
+|height=900
+|width=1000
+|mincount=1
+|minsize=70
+|maxsize=220
+|maxtags=1000
+}}
+
+{{#ask:[[Category: People]]
+|?Has image
+|+filter=value
+|format=filtered
+|limit=50
+|list view type=list
+|views=list
+}}
+
+{{#ask:[[Category:People]]
+|?Category
+|format=tagcloud
+|limit=250
+|link=all
+|headers=show
+|searchlabel=… further results
+|tagorder=alphabetical
+|increase=log
+|widget=sphere
+|font=sans
+|height=400
+|width=400
+|mincount=1
+|minsize=70
+|maxsize=220
+|maxtags=1000
+}}

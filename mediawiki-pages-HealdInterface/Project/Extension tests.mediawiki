@@ -1,0 +1,729 @@
+== Extension Test Generator ==
+{{:Extensions test page generator}}
+
+== Implementing an extension test page ==
+Approx. time to implement on a single wiki: 30-40 minutes.
+
+Should be placed at Project:Extension tests. Please update this list as needed:
+
+<syntaxhighlight lang="moin">
+The following are tests of the extensions running on the wiki. Where applicable, if the "Test" value matches the "Expected" value, the extension can be assumed to be working.
+
+== AdminLinks ==
+* [[Special:AdminLinks]]
+
+If you are an admin, you should see links by your personal tools.
+
+== AJAXPoll ==
+; Test
+<poll>
+Question
+Choice 1
+Choice 2
+Choice 3
+Choice 4
+</poll>
+; Expected
+: A poll
+
+== AnchorHandler ==
+;Test :<a href="http://www.google.com"> Google </a>
+;Expected :[http://www.google.com Google]
+
+== ApprovedRevs==
+[[Special:ApprovedRevs]] must be a valid link.
+
+== Arrays ==
+{{#arraydefine:b|orange,red ,yellow, yellow}}
+; Test
+: {{#arrayprint:b}}
+; Expected
+: orange, red, yellow, yellow
+
+== balloons ==
+<balloon title="Hello I am a tooltip!">Mouse over me!</balloon>
+
+== Bootstrap ==
+This should be a greeny shadowed alert box with white text:
+<div class="alert alert-success shadow text-white font-weight-bold">
+I am bootstrapped
+</div>
+
+== Cargo ==
+[{{fullurl:{{FULLPAGENAME}}|action=pagevalues}} This link] should contain information about this page.
+* [[Special:CargoTables/Books|Books]]
+
+== CategoryTree ==
+A category tree should be shown:
+<categorytree mode=pages>Tests</categorytree>
+
+== CharInsert ==
+; Test
+: <charinsert>Á</charinsert>
+; Expected
+: <span class="plainlinks"> [{{fullurl:{{FULLPAGENAME}}}}# Á]</span>
+
+== CheckUser ==
+This should be a valid link:
+[[Special:CheckUser]]
+
+== Cite ==
+; Test
+: Text<ref>Test</ref>
+<references />
+; Expected
+: Text<sup id="cite_ref-1" class="reference plainlinks">[{{fullurl:{{FULLPAGENAME}}#cite_note-1}} <nowiki>[1]</nowiki>]</sup>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink plainlinks">[{{fullurl:{{FULLPAGENAME}}#cite_ref-1}} <span class="cite-accessibility-label">Jump up </span>↑]</span> <span class="reference-text">Test</span>
+</li>
+</ol>
+
+== CiteThisPage ==
+This should be a valid link:
+[[Special:CiteThisPage]]
+
+== CodeEditor ==
+This should open in the ACE editor interface:
+[{{fullurl: Mediawiki:Common.css|action=edit}} edit]
+
+== Collections ==
+[{{fullurl:Special:Book|bookcmd=render_article&arttitle=Keogt%3AExtension+tests&returnto=Keogt%3AExtension+tests&oldid=1520&writer=rl}} download PDF]
+
+== Comments ==
+<comments />
+
+== CommentStreams ==
+<comment-streams/>
+
+== Confirm User Accounts ==
+
+== ConfirmEdit ==
+<code>skipcaptcha</code> right should be present [[Special:ListGroupRights|here]].
+
+== ContactPage ==
+This should be a valid link:
+[[Special:Contact|Contact us]]
+
+== ContributionScores ==
+This should be a valid link:
+[[Special:ContributionScores]]
+
+== ContributionsList ==
+A list of contributions should be shown:
+{{#contributionslist:
+  user=WikiWorks
+}}
+
+== Contributors ==
+A list of contributors to this page should be shown:
+{{Special:Contributors/{{FULLPAGENAME}}}}
+
+== CreatePage ==
+A text input should be shown:
+{{#createpage:}}
+
+== CSS ==
+{{#css:
+  #css-test {
+    color: red;
+  }
+}}
+<div id="css-test">If this text is red, the extension works.</div>
+
+== DataTransfer ==
+This should be a valid link:
+[[Special:ImportCSV]]
+
+== Disambiguator ==
+;Test: __DISAMBIG__
+;Expected: (nothing)
+
+== DismissableSiteNotice ==
+* [[MediaWiki:Sitenotice_id]]
+
+== DiscussionThreading ==
+Navigate to the [[{{TALKPAGENAME}}]], ensure there is a "Subject" field
+
+== DrawioEditor ==
+This should create the Edit link which opens the editor:
+{{#drawio:{{PAGENAME}}}}
+
+== Echo ==
+This should be a valid link:
+[[Special:Notifications]]
+
+== Editcount ==
+An integer should follow: {{Special:Editcount/WikiWorks}}
+
+== EmbedVideo ==
+Three videos should be below:
+
+{{#ev:youtube|DWef69ItVrU|200}}
+{{#evt:
+service=youtube
+|id=https://www.youtube.com/watch?v=DWef69ItVrU
+|dimensions=200
+}}
+<embedvideo dimensions="200" service="youtube">https://www.youtube.com/watch?v=DWef69ItVrU</embedvideo>
+
+== ExternalLinkConfirm ==
+* The following links should display no modal windows and just redirect you to [[:Project:Help]] (it's ok if the link is red)
+* And this link should display a warning modal: [https://mediawiki.org Clickme]
+
+== ExternalData ==
+{{#get_web_data:url=https://www.semantic-mediawiki.org/wiki/Special:Ask/-5B-5BGermany-5D-5D/-3FLocated_in/format%3Dcsv/sep%3D,
+    |format=csv with header|data=Located in=Located in}}
+;Test :{{#external_value:Located in}}
+;Expected :Europe
+
+== Favorites ==
+This link should work: [[Special:Favoritelist]]
+
+list faforities:<br>
+<favorites/>
+
+== FlashMP3 ==
+Note: This extension should be phased out and replaced with the html5audio widget.
+<flashmp3>http://www.openanesthesia.org/podcasts/200912London.mp3</flashmp3>
+
+
+== FlickrAPI ==
+<flickr>145197704</flickr><br clear="all" />
+
+== Gadgets ==
+
+
+== googleAnalytics ==
+The page source head section should contain a link to the script: 
+:<code>//www.google-analytics.com/analytics.js</code>
+
+== GoogleAnalyticsMetrics ==
+An integer should be displayed:
+{{#GoogleAnalyticsMetrics:pageviews}}
+
+== GoogleCustomWikiSearch ==
+This should be a valid link:
+[[Special:GoogleCustomWikiSearch]]
+
+== HeaderFooter ==
+The content of [[MediaWiki:hf-footer-{{FULLPAGENAME}}]] must be shown as a footer on the current page.
+
+== HeaderTabs ==
+Two tabs should be visible below.
+= Test =
+Content
+= Test2 =
+More content
+<headertabs />
+
+== HitCounters ==
+An integer should follow: {{#numberofviews:}}
+
+== HTML Tags ==
+Should be a link or something else allowed by $wgHTMLTagsAttributes variable:
+<htmltag tagname="a" href="http://en.wikipedia.org/wiki/Antarctica" class="my-links">Read about Antarctica</htmltag>
+
+== IDProvider ==
+; Test
+: {{#idprovider-increment:TEST_}}
+; Expected
+: TEST_<integer>
+
+== IframePage ==
+<div style="background-color: white; height: 200px; overflow: auto;">
+{{Special:IframePage}}
+</div>
+
+== IfTemplates ==
+;Test :{{#iftemplates:Project:Extension tests/IfTemplates|true|false}}
+;Expected :true
+
+;Test :{{#iftemplates:Project:Extension tests/IfTemplates2|true|false}}
+;Expected :false
+
+== ImageMap ==
+<imagemap>
+Image:JoshuaReynoldsParty.jpg|thumb|center|400px|alt=Dining room with nine men seated around a table. The dinner has been finished, and a large man at the head talks and gesticulates while the others eagerly listen. The men wear wigs and clothing of late 18th century Britain, and the furniture, hangings, and chandelier are of similar vintage. A liveried servant is entering with a tray bearing two high-shouldered decanters of wine.|Image map example. Clicking on a person in the picture causes the browser to load the appropriate article.
+
+poly 133 343 124 287 159 224 189 228 195 291 222 311 209 343 209 354 243 362 292 466 250 463 [[wikipedia:Samuel Johnson|Dr Johnson - Dictionary writer]]
+poly 76 224 84 255 43 302 62 400 123 423 121 361 137 344 122 290 111 234 96 225 [[wikipedia:James Boswell|Boswell - Biographer]]
+poly 190 276 208 240 229 228 247 238 250 258 286 319 282 323 223 323 220 301 200 295 [[wikipedia:Joshua Reynolds|Sir Joshua Reynolds - Host]]
+poly 308 317 311 270 328 261 316 246 320 228 343 227 357 240 377 274 366 284 352 311 319 324 [[wikipedia:David Garrick|David Garrick - actor]]
+poly 252 406 313 343 341 343 366 280 383 273 372 251 378 222 409 228 414 280 420 292 390 300 374 360 359 437 306 418 313 391 272 415 [[wikipedia:Edmund Burke|Edmund Burke - statesman]]
+rect 418 220 452 287 [[wikipedia:Pasquale Paoli|Pasqual Paoli - Corsican patriot]]
+poly 455 238 484 253 505 303 495 363 501 377 491 443 429 439 423 375 466 352 [[wikipedia:Charles Burney|Charles Burney - music historian]]
+poly 501 279 546 237 567 239 572 308 560 326 537 316 530 300 502 289 [[wikipedia:Thomas Warton|Thomas Warton - poet laureate]]
+poly 572 453 591 446 572 373 603 351 562 325 592 288 573 260 573 248 591 243 615 254 637 280 655 334 705 396 656 419 625 382 609 391 613 453 [[wikipedia:Oliver Goldsmith|Oliver Goldsmith - writer]]
+rect 450 86 584 188 [[wikipedia:Joshua Reynolds|prob.The Infant Academy 1782]]
+rect 286 87 376 191 [[wikipedia:Joshua Reynolds|unknown painting]]
+circle 100 141 20 [[wikipedia:Joshua Reynolds|An unknown portrait]]
+poly 503 192 511 176 532 176 534 200 553 219 554 234 541 236 525 261 506 261 511 220 515 215 [[wikipedia:Francis Barber|servant - poss. Francis Barber]]
+rect 12 10 702 500 [[wikipedia:The Club (Literary Club)|Use button to enlarge or use hyperlinks]]
+</imagemap>
+
+== InputBox ==
+; Test
+<inputbox>
+type=create
+break=no
+</inputbox>
+; Expected
+: An input box
+
+== Interwiki ==
+This should be a valid link:
+[[Special:Interwiki]]
+
+== JavascriptSlideshow ==
+;Test :{{#slideshow:
+<div>Tick</div><div>Tock</div>
+|id=bar refresh=1000
+}}
+;Expected :The words: Tick & Tock, alternating.
+
+== JSON ==
+{{#json:
+{
+  "name" : "John"
+}
+}}
+* Expected: John
+* Actual: {{#ask:
+[[Has JSON container::{{FULLPAGENAME}}]]
+|mainlabel=-
+|?name=
+|link=none
+}}
+
+== LabeledSectionTransclusion ==
+;Test :{{#lst:{{FULLPAGENAME}}/Labeled Section Transclusion|test1}}
+;Expected :This is a test.
+
+;Test :{{#lsth:{{FULLPAGENAME}}/Labeled Section Transclusion|test2}}
+;Expected :
+
+This is also a test.
+
+In /Labeled Section Transclusion:
+<section begin=test1 />This is a test.<section end=test1 />
+Some text ...
+
+== test2 ==
+This is also a test.
+
+== LinkTarget ==
+<small>Depends on <code>$wgLinkTargetParentClasses = [ 'target-blank' ];</code></small>
+<div class="target-blank">[[{{int: mainpage}}|This]] should open in new tab / window.</div>
+
+== Default target for external links ==
+<small>Depends on <code>$wgExternalLinkTarget = '_blank';</code></small>
+<div>[https://www.mediawiki.org/wiki/Manual:$wgExternalLinkTarget This] should open in new tab / window.</div>
+
+== LinkTree ==
+The code below renders a linktree for this page:
+{{#linktree:{{FULLPAGENAME}}}}
+
+== Lockdown ==
+
+== LookupUser ==
+This should be a valid link:
+[[Special:LookupUser|LookupUser]]
+
+== Loops (requires Variables) ==
+;Test : {{#vardefine: i | 1 }}{{#while:
+ | {{#ifexpr: {{#var: i }} < 4 | true }}
+ | 
+{{#var: i }} {{#vardefine: i | {{#expr: {{#var: i }} + 1 }} }}
+}}
+;Expected : 1  2  3
+
+== MagicNumberedHeadings ==
+If you see all headings numbered, it works.
+__NUMBEREDHEADINGS__
+
+== Maps ==
+;Variant 1
+{{#display_map:address=Brandenburg Gate, Berlin, Germany|width=200|height=150|zoom=17|type=hybrid}}
+;Test :{{#geocode:Brandenburg Gate, Berlin, Germany}}
+;Expected :52° 30' 58.59" N, 13° 22' 39.73" E
+
+;Variant 2
+{{#display_map: Brandenburg Gate, Berlin~Brandenburg Gate }}
+;Test :{{#geocode:Brandenburg Gate}}
+;Expected :52° 30' 58.59" N, 13° 22' 39.73" E
+
+== Math ==
+; Test
+: <math>\int_{(x,y)\in C} x^3\, dx + 4y^2\, dy</math>
+; Expected
+: ∫(x,y)∈Cx3dx+4y2dy (but much better-looking)
+
+== Mendeley ==
+; Test
+: {{#mendeley:doi=10.1103/PhysRevA.20.1521|parameter=title}}
+; Expected (similar to)
+: Laser cooling of atoms
+
+; Test
+: {{#mendeley:id=04d48d5f-d664-3a17-b004-1503cca53802|parameter=authors;first_name}}
+; Expected (similar to)
+: D. J.,Wayne M.
+
+
+== MobileDetect ==
+;Test
+:<mobileonly>Mobile</mobileonly><nomobile>Desktop</nomobile>
+;Expected
+: Either "Desktop" or "Mobile"
+
+== MPDF ==
+[{{fullurl:{{FULLPAGENAMEE}}|action=mpdf}} download this page as a PDF file]
+
+== MsUpload ==
+This should have an upload box:
+[{{fullurl:Main Page|action=edit}} edit]
+
+== MultimediaViewer ==
+Clicking this should pop up a nice lightbox image viewer or, in case MMV is disabled by default, this should open the file page with the <code>Open in Media Viewer</code> button:
+:[[File:Errors.png|50px]]
+
+== MyVariables ==
+; Test : {{CURRENTUSER}} 
+; Expected : Your user name or the IP for anonymous users
+
+== MultimediaPlayer ==
+=== Test ===
+<div style="max-width: 350px"><multimediacontainer /></div>
+* {{#multimediaitem:YouTube|DWef69ItVrU|YouTube test}}
+=== Expected ===
+* [[#|YouTube test]]
+Clicking the text should load a YouTube video.
+
+== NamespaceHTML ==
+;Test :<html><p id="demo"></p><script>
+document.getElementById("demo").innerHTML = "NamespaceHTML test!";
+</script></html>
+;Expected :NamespaceHTML test!
+
+== Nuke ==
+This should be a valid link:
+[[Special:Nuke]]
+
+== PageForms ==
+This should be a valid link:
+[[Special:Forms]]
+
+== PageImages ==
+* [{{SERVER}}{{SCRIPTPATH}}/api.php?action=query&prop=pageimages&titles={{PAGENAMEE}} This must not fire a warning about pageimages]
+* [{{SERVER}}{{SCRIPTPATH}}/api.php?action=help&modules=query This should list '''pageimages''' property]
+
+== PageSchemas ==
+This should be a valid link:
+[[Special:EditSchema]]
+
+== ParseLine ==
+;Test :{{#parseline:All
+|on
+|one
+line}}
+;Expected :All|on|oneline
+
+== ParserFunctions ==
+; Test math functions: {{#expr: 4 + 6}}
+; Expected : 10
+
+; Test string functions: {{#len:Icecream }} 
+; Expected : 8
+
+== PdfBook ==
+; Single article
+:[{{fullurl: Main_Page|action=pdfbook&format=single}} This should create a PDF of the Main Page]
+; Collection of articles
+:[{{fullurl:Category:Imported_vocabulary|action=pdfbook}} This should create a PDF with a collection of pages from the category ''Imported vocabulary''] (SMW required)
+
+== PDFHandler ==
+You should see the content of the uploaded PDF ([[media:Imported_vocabulary.pdf|Imported_vocabulary.pdf]]):
+
+[[File:Imported_vocabulary.pdf|page=1|200px|Succeeded]]
+
+== Poem ==
+; Test
+: <poem>
+Une terre au flanc maigre, âpre, avare, inclément
+Où les vivants pensifs travaillent tristement, 
+::Et qui donne à regret à cette race humaine
+Un peu de pain pour tant de labeur et de peine ; 
+::Des hommes durs, éclos sur ces sillons ingrats ; 
+Des cités d’où s’en vont, en se tordant les bras, 
+::La charité, la paix, la foi, sœurs vénérables ; 
+L’orgueil chez les puissants et chez les misérables ; 
+</poem>
+; Expected
+: A nicely formatted poem
+
+== Pubmed ==
+=== Test ===
+<pubmed> 15980568 </pubmed>
+=== Expected ===
+<p style=" border:1px outset gray; margin:.5em; padding:.5em; background-color:#efd;"><i>Andreas Bohne-Lang, Wolf-Dieter Groch, Ren? Ranzinger</i><br><b>AISMIG--an interactive server-side molecule image generator.</b><br>Nucleic Acids Res.: 2005, 33(Web Server issue);W705-9 <br><a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/15980568" style="text-decoration: none;color:blue">[PubMed:15980568]</a><a target="_blank" href="http://www.worldcat.org/issn/1362-4962" style="text-decoration: none;color:blue"> [WorldCat.org]</a><a target="_blank" href="http://dx.doi.org/10.1093/nar/gki438" style="text-decoration: none;color:blue">[DOI]</a>(I p)</p>
+
+== Quiz ==
+=== Test ===
+<quiz>
+{Bulgaria and Rumania joined the 
+European Union in 2007.
+|type="()"}
++ TRUE.
+- FALSE.
+</quiz>
+=== Expected ===
+A quiz
+
+== Rename user ==
+This should be a valid link:
+[[Special:RenameUser]]
+
+== Replace Text ==
+This should be a valid link:
+[[Special:ReplaceText]]
+
+== RSS ==
+One post from the Wikimedia blog feed should be below, with all the "a" characters highlighted:
+<rss max=1 highlight="a">https://wikimediafoundation.org/feed/</rss>
+
+== SemanticDrilldown ==
+This should be a valid link:
+[[Special:BrowseData]]
+
+== SemanticMediaWiki ==
+; Test :[[Test::NONEXISTENTPAGE|Test]] __SHOWFACTBOX__
+; Expected :[[NONEXISTENTPAGE|Test]]
+: There should be a factbox at the page bottom.
+
+== Semantic Internal Objects ==
+{{#set_internal:Part of recipe
+|Has quantity=1
+|Has unit=cup
+|Has ingredient=flour
+}}
+* Expected: 1
+* Actual: {{#ask:[[Part of recipe::+]][[Has ingredient::flour]][[Has unit::cup]][[Has quantity::>.5]]
+|mainlabel=-
+|? Has quantity=
+|link=none
+}}
+
+== Semantic Result Formats ==
+; Test (old wikis)
+{{#ask:[[{{FULLPAGENAME}}]]|?Test|format=datatables}}
+; Expected
+: A nice-looking DataTable with a search field
+
+== SimpleChanges ==
+A list of recent changes should be displayed:
+{{Special:SimpleChanges/5}}
+
+
+== SimpleTable ==
+; Test
+<tab border=1>
+Field 1	Field 2	Field 3
+Field 4	Field 5	Field 6
+Field 7	Field 8	Field 9
+</tab>
+
+; Expected
+{| border=1
+| Field 1
+| Field 2
+| Field 3
+|-
+| Field 4
+| Field 5
+| Field 6
+|-
+| Field 7
+| Field 8
+| Field 9
+|}
+
+== SimpleTooltip ==
+This should render a simple tooltip link: {{#tip-text: Hover over this to see a tooltip. | tooltip-text}}
+This should render a simple tooltip icon: {{#tip-info: tooltip-text }}
+
+=== SlideShare ===
+A Slideshare should be visible:
+{{#widget:SlideShare
+|id=11965061
+|width=200
+|height=100
+}}
+
+== SpamBlacklist ==
+Once this is added to [[Mediawiki:Spam-blacklist]]:
+:<code>\bexample\.com\b</code>
+this should be blocked:
+:[http://example.com example.com]
+
+== Scribunto ==
+=== [[Module:String]] ===
+; Test : {{#invoke:String|len|This is a test.}} 
+; Expected : 15
+
+== SyntaxHighlight ==
+The following must be colorful:
+<syntaxhighlight lang="python" line start=3 highlight="1,5-7">
+def quick_sort(arr):
+	less = []
+	pivot_list = []
+	more = []
+	if len(arr) <= 1:
+		return arr
+	else:
+		pass
+&lt;/syntaxhighlight>
+
+== Tabs ==
+; Test
+<tabs>
+<tab name="Foo">Lorem ipsum dolor sit amet.</tab>
+<tab name="Bar">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</tab>
+<tab name="Baz">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</tab>
+</tabs>
+
+; Expected: A tabbed display
+
+== TemplateData ==
+[{{fullurl:Template:Test|action=edit}} This link should take you to a page with the <code>Manage TemplateData</code> button] (normally below the first heading).
+
+== TemplateStyles ==
+<!-- Create a page called Project:Extension tests/TemplateStyles.css with content:
+.templatestyles {
+   color: red;
+}
+and then change its content model at Special:ChangeContentModel to "Sanitized CSS"-->
+<templatestyles src="Project:Extension tests/TemplateStyles.css" />
+;Test
+:<span class="templatestyles">red text</span>
+;Expected
+:<span style="color:red;">red text</span>
+
+== TopContributors ==
+<topcontributors />
+
+== Thanks ==
+[[Special:Log/thanks]] exists
+
+== TreeAndMenu ==
+An interactive tree is rendered below:
+{{#tree:
+*Item
+**[[Sub-item link]]
+**Another sub-item
+}}
+
+== TimedMediaHandler ==
+[[File:Xacti-AC8EX-Sample video-001.ogv|File:Xacti-AC8EX-Sample video-001.ogv]]
+
+== UploadWizard ==
+
+UploadWizard is displayed at [[:Special:UploadWizard]]
+
+== UrlGetParameters ==
+; Test : {{#urlget:param|}} {{#if:{{#urlget:param|}}||[{{fullurl:{{FULLPAGENAME}}|param=Test}} Click here to test.]}}
+; Expected : Test
+
+== UserMerge ==
+This should be a valid link:
+[[Special:UserMerge]]
+
+
+== UserProtect ==
+[{{fullurl: {{FULLPAGENAME}}|action=UserProtect}} This] must open the UserProtect interface.
+
+== Variables ==
+; Test : {{#vardefine:test|testing}}{{#var:test}}
+; Expected : testing
+
+== VisualEditor ==
+This should load VisualEditor in edit mode:
+[{{fullurl:Main Page|veaction=edit}} edit]
+
+== VoteNY ==
+A vote box should be here:
+<vote />
+
+== WatchAnalytics ==
+* [[Special:WatchAnalytics]]
+
+== WhosOnline ==
+* [[Special:WhosOnline]]
+
+== Widgets ==
+;Test
+:{{ns:Widget}}
+;Expected
+:Widget
+
+=== Disqus ===
+{{#widget:DISQUS|PUT_YOUR_DISCUS_ID}}
+=== Html5media ===
+A video should be visible:
+{{#widget:Html5media
+|url=http://pornel.net/Performance.ogg
+|width=200
+|height=150
+}}
+=== Vimeo ===
+{{#widget:Vimeo|id=8758454}}
+=== YouTube ===
+A YouTube video should be visible:
+{{#widget:Youtube 
+|id=DWef69ItVrU
+|width=200
+|height=150
+}}
+=== Iframe ===
+{{#widget:Iframe
+|url={{fullurl:Main Page}}
+}}
+
+== WikiEditor ==
+This should load a tabbed WikiEditor:
+[{{fullurl:Main Page|action=edit}} edit]
+
+== WikiForum ==
+This should be a valid link:
+[[Special:WikiForum]]
+
+== WikiSEO ==
+{{#seo:
+|title=Your page title
+|titlemode=append
+|keywords=these,are,your,keywords
+|description=Your meta description
+}}
+The page source should contain:
+<nowiki><title></nowiki>Your page title<nowiki></title></nowiki>
+
+and:
+
+<pre>
+<meta name="keywords" content="these,are,your,keywords"/>
+<meta name="description" content="Your meta description"/>
+<meta name="twitter:description" content="Your meta description"/>
+</pre>
+
+== Wiretap ==
+* [[Special:Wiretap]]
+
+== YouTube ==
+<youtube>VyBSS48E4xI</youtube>
+
+
+[[Category:Tests]]
+</syntaxhighlight>
+
+[[Category:SOP]]
+[[Category:Extensions]]
+

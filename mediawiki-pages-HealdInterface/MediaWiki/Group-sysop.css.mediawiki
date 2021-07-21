@@ -1,0 +1,9 @@
+/* CSS placed here will affect sysops only */
+
+#t-specialpages {
+   display: block;
+}
+
+.mw-editsection {
+   display: inline;
+}

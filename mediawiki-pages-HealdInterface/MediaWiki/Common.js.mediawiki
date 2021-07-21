@@ -1,0 +1,35 @@
+/*Creates random image selection for banner*/
+function getRandomImage()
+{
+    var images = [
+        "/mediawiki/images/3/32/0072_banner_alt.jpg",
+        "/mediawiki/images/1/1c/0464_banner_alt.jpg",
+        "/mediawiki/images/9/98/0033_banner.jpg",
+        "/mediawiki/images/9/94/1213_banner.jpg"
+    ];
+    return images[Math.floor(Math.random() * images.length)];
+}
+
+$(document).ready(function(){
+if ( $(window).width() > 767 ) {
+    $(".bannerImage").css({'background-image' : 'url(' + getRandomImage() + ')'}).addClass('fade-in');
+}
+});
+
+/*Make .caret in nav rotate*/
+$('a.dropdown-toggle').click( function() {
+     $(this).children('b.caret').toggleClass('caretRotate');  
+});
+          
+/*Adds up button on scroll*/
+$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+var amountScrolled = 400;
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});

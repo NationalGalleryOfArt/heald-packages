@@ -1,0 +1,1 @@
+<strong>There is a page named "[[:$1]]" on this wiki.</strong> {{PLURAL:$2|0=|See also the other search results found.}}

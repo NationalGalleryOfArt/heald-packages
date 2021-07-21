@@ -1,0 +1,3 @@
+Retrieved from "$1"
+
+{{SITENAME}} contributors, "{{FULLPAGENAME}}," ''{{SITENAME}}, {{int:sitesubtitle}},'' $1 (accessed {{CURRENTMONTHNAME}} {{CURRENTDAY}}, {{CURRENTYEAR}}).

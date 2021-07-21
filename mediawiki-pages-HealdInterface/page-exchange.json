@@ -1,0 +1,181 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https:\/\/github.com\/NationalGalleryOfArt\/heald-packages",
+    "packages": {
+        "HEALDInterface": {
+            "globalID": "gov.nga.heald-interface",
+            "description": "Interface",
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Browse-nav",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FBrowse-nav.mediawiki"
+                },
+                {
+                    "name": "Category-article-count",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FCategory-article-count.mediawiki"
+                },
+                {
+                    "name": "Category-subcat-count-limited",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FCategory-subcat-count-limited.mediawiki"
+                },
+                {
+                    "name": "Common.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FCommon.css.mediawiki"
+                },
+                {
+                    "name": "Common.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FCommon.js.mediawiki"
+                },
+                {
+                    "name": "Footer",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FFooter.mediawiki"
+                },
+                {
+                    "name": "Gadget-DotsSyntaxHighlighter.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadget-DotsSyntaxHighlighter.js.mediawiki"
+                },
+                {
+                    "name": "Gadget-ReferenceTooltips",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadget-ReferenceTooltips.mediawiki"
+                },
+                {
+                    "name": "Gadget-ReferenceTooltips.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadget-ReferenceTooltips.css.mediawiki"
+                },
+                {
+                    "name": "Gadget-ReferenceTooltips.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadget-ReferenceTooltips.js.mediawiki"
+                },
+                {
+                    "name": "Gadgets-definition",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadgets-definition.mediawiki"
+                },
+                {
+                    "name": "Gadgets\/MediaWiki:Gadget-DotsSyntaxHighlighter",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadgets%7CMediaWiki%3AGadget-DotsSyntaxHighlighter.mediawiki"
+                },
+                {
+                    "name": "Gadgets\/MediaWiki:Gadget-DotsSyntaxHighlighter.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGadgets%7CMediaWiki%3AGadget-DotsSyntaxHighlighter.js.mediawiki"
+                },
+                {
+                    "name": "Group-sysop.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FGroup-sysop.css.mediawiki"
+                },
+                {
+                    "name": "Idisplay",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FIdisplay.mediawiki"
+                },
+                {
+                    "name": "Jumptosearch",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FJumptosearch.mediawiki"
+                },
+                {
+                    "name": "Mobile.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FMobile.css.mediawiki"
+                },
+                {
+                    "name": "Multicatsearch comment",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FMulticatsearch%20comment.mediawiki"
+                },
+                {
+                    "name": "Multicatsearch submit button",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FMulticatsearch%20submit%20button.mediawiki"
+                },
+                {
+                    "name": "Retrievedfrom",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FRetrievedfrom.mediawiki"
+                },
+                {
+                    "name": "SMWImage",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSMWImage.mediawiki"
+                },
+                {
+                    "name": "Search",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSearch.mediawiki"
+                },
+                {
+                    "name": "Search-nonefound",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSearch-nonefound.mediawiki"
+                },
+                {
+                    "name": "Searchmenu-exists",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSearchmenu-exists.mediawiki"
+                },
+                {
+                    "name": "Searchprofile-images",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSearchprofile-images.mediawiki"
+                },
+                {
+                    "name": "Searchsuggest-search",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSearchsuggest-search.mediawiki"
+                },
+                {
+                    "name": "Sidebar",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSidebar.mediawiki"
+                },
+                {
+                    "name": "Spam-blacklist",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FSpam-blacklist.mediawiki"
+                },
+                {
+                    "name": "Tagline",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FTagline.mediawiki"
+                },
+                {
+                    "name": "Home",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/Main%2FHome.mediawiki"
+                },
+                {
+                    "name": "Essays",
+                    "namespace": "NS_MAIN",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/Main%2FEssays.mediawiki"
+                },
+                {
+                    "name": "Extension tests",
+                    "namespace": "NS_PROJECT",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/Project%2FExtension%20tests.mediawiki"
+                },
+                {
+                    "name": "Iframe",
+                    "namespace": "NS_WIDGET",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/Widget%2FIframe.mediawiki"
+                }
+            ],
+            "requiredExtensions": []
+        }
+    }
+}

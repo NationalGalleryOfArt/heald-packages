@@ -1,0 +1,1 @@
+[[User:Remember the dot/Syntax highlighter|Dot's syntax highlighter]], make syntax stand out colorfully in the edit box. Works best in [[wikipedia:Mozilla Firefox|Firefox]], works almost all of the time in [[wikipedia:Opera (web browser)|Opera]], and works most of the time in [[wikipedia:Google Chrome|Chrome]]. '''Should not''' be used with the browser's page zoom feature.
