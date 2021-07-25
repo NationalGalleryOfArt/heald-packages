@@ -11,7 +11,7 @@ The project is organized by 100 keywords, supported by 100 featured places and h
 ===''Introductory Essays''===
 {{:Essays}}
 {{break}}
-Read more about CASVA [https://www.nga.gov/research/casva/research-projects.html research projects].
+Read more about the Center's [https://www.nga.gov/research/casva/research-projects.html research projects].
 
 <div style="font-size:14px; font-family: sans-serif; color:#777777; line-height:2em;">Banner Images:</div>
 
