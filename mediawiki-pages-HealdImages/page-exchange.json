@@ -60,10 +60,15 @@
                     "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FShowcase%20essay%20Page.mediawiki"
                 },
                 {
-                    "name": "Caption",
+                    "name": "Image Title",
                     "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FCaption.mediawiki"
-                },		    
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FImage%20Title.mediawiki"
+                },
+                {
+                    "name": "Reference Title",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FReference%20Title.mediawiki"
+                },
                 {
                     "name": "Images",
                     "namespace": "NS_CATEGORY",

@@ -39,9 +39,9 @@ if a page with that name already exists, you will be sent to a form to edit that
 |-
 ! Dimensions: {{#info: Height x Width in the form XX x ZZ in. (aa x bb cm)}}
 | {{{field|Dimensions}}}
-|- 
-! Caption:
-| {{{field|Caption|mandatory}}}
+|-
+! Image Title:
+| {{{field|Image Title|mandatory}}}
 |}
 
 == Showcase ==
@@ -64,6 +64,9 @@ if a page with that name already exists, you will be sent to a form to edit that
 {| class="formtable"
 ! Date of Publication:
 | {{Form:Date|Prefix=Publication}}
+|-
+! Reference Title
+| {{{field|Reference Title}}}
 |-
 ! Volume:
 | {{{field|Volume}}}
@@ -99,4 +102,3 @@ if a page with that name already exists, you will be sent to a form to edit that
 
 {{{standard input|free text|rows=10}}}
 </includeonly>
-

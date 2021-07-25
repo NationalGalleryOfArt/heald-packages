@@ -11,7 +11,7 @@
     |limit=1
     |searchlabel=
 }}]]
-|?Caption
+|?Image Title
 |propsep={{!}}
 |format=array
 |headers=hide

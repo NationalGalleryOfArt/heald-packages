@@ -12,7 +12,7 @@
 	|searchlabel=
         |default=File:NoImage with caption.png
 }}]]
-|?Caption
+|?Image Title
 |propsep={{!}}
 |format=array
 |headers=hide
@@ -30,7 +30,7 @@
 |EssayPage1       # mandatory
 |EssayPage2       # mandatory
 |EssayPage3       # mandatory
-|300              # image height in pixels, defaults to "320" 
+|300              # image height in pixels, defaults to "320"
 }}
 </pre>
 [[Category:Mediawiki-pages-heald-images]]</noinclude>

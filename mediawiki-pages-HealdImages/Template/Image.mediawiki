@@ -34,7 +34,7 @@
 ;Inscription: {{#set:Inscription={{{Inscription|}}}}}{{{Inscription|}}}
 ;Medium: [[Medium::{{{Medium|}}}]]
 ;Dimensions: [[Dimensions::{{{Dimensions|}}}]]<!--
--->{{#set: Caption={{{Caption|}}}}} 
+-->{{#set: Image Title={{{Image Title|}}}}}
 </div>
 </div>
 </div>
@@ -53,6 +53,7 @@
                         |EndConcurrence={{{Publication Concurrence End|}}}
                         |EndQuestionable={{{Publication Questionable End|}}}
 }}
+;Reference Title: [[Reference Title::{{{Reference Title|}}}]]
 ;Volume: [[Volume::{{{Volume|}}}]]
 ;Edition: [[Edition::{{{Edition|}}}]]
 ;Page: [[Pages::{{{Page number|}}}]]
@@ -74,6 +75,7 @@ Download an {{#ask:
 |?Inscription
 |?Medium
 |?Dimensions
+|?Reference Title
 |?Volume
 |?Edition
 |?Pages
