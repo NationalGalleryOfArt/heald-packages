@@ -1,0 +1,3 @@
+{{#set: Caption=No images matching the pattern.}}
+[[Category:Mediawiki-pages-heald-images]]
+

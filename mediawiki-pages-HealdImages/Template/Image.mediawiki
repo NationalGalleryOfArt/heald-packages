@@ -1,0 +1,94 @@
+<includeonly><div class="about-image-section">
+== About this image ==
+<div id="image-all" class="card-group my-2">
+<div id="image-relationships" class="card text-dark bg-light">
+<div class="card-header">Relationships</div>
+<div class="card-body">
+<div class="card-text">
+;Place: [[Place::{{{Place|}}}]]<!-- -->{{#if:{{{Place|}}}|{{#subobject:Creation|Collection filter=Has place}}}}
+;People: {{#arraymap:{{{People|}}}|,|x|[[Person::x]]}}<!-- -->{{#if:{{{People|}}}|{{#subobject:Creation|Collection filter=Has person}}}}
+;Keyword relationships
+{{{Keyword relationships|}}}<!-- showcases
+-->{{#ifeq:{{{Showcase main|}}} |Yes|{{#set:Showcase main Category={{{Showcase main Category|}}}}}}}<!--
+-->{{#ifeq:{{{Showcase essay|}}}|Yes|{{#set:Showcase essay Page={{{Showcase essay Page|}}}}}}}
+</div>
+</div>
+</div>
+<div id="image-information" class="card text-dark bg-light">
+<div class="card-header">Information</div>
+<div class="card-body">
+<div class="card-text">
+;Creator: [[Creator::{{{Creator|}}}]]
+;Date: {{Date
+         |Creation
+         |Date={{{Creation Date|}}}
+         |Circa={{{Creation Circa|}}}
+         |Concurrence={{{Creation Concurrence|}}}
+         |Questionable={{{Creation Questionable|}}}
+         |EndDate={{{Creation Date End|}}}
+         |EndCirca={{{Creation Circa End|}}}
+         |EndConcurrence={{{Creation Concurrence End|}}}
+         |EndQuestionable={{{Creation Questionable End|}}}
+}}
+;Title: [[Title::{{{Title|}}}]]
+;Inscription: {{#set:Inscription={{{Inscription|}}}}}{{{Inscription|}}}
+;Medium: [[Medium::{{{Medium|}}}]]
+;Dimensions: [[Dimensions::{{{Dimensions|}}}]]<!--
+-->{{#set: Caption={{{Caption|}}}}} 
+</div>
+</div>
+</div>
+<div id="image-reference" class="card text-dark bg-light">
+<div class="card-header">Reference</div>
+<div class="card-body">
+<div class="card-text">
+;Date of Publication: {{Date
+                        |Publication
+                        |Date={{{Publication Date|}}}
+                        |Circa={{{Publication Circa|}}}
+                        |Concurrence={{{Publication Concurrence|}}}
+                        |Questionable={{{Publication Questionable|}}}
+                        |EndDate={{{Publication Date End|}}}
+                        |EndCirca={{{Publication Circa End|}}}
+                        |EndConcurrence={{{Publication Concurrence End|}}}
+                        |EndQuestionable={{{Publication Questionable End|}}}
+}}
+;Volume: [[Volume::{{{Volume|}}}]]
+;Edition: [[Edition::{{{Edition|}}}]]
+;Page: [[Pages::{{{Page number|}}}]]
+;Figure: [[Figure::{{{Figure|}}}]]
+;Repository: [[Repository::{{{Repository|}}}]]
+;Zotero ID: [[Reference ID::{{{Reference ID|}}}]]
+</div>
+</div>
+</div>
+</div>
+</div><!--- /about-image-section -->
+Download an {{#ask:
+[[{{FULLPAGENAME}}]] OR [[-Has subobject::{{FULLPAGENAME}}]] [[Date::+]]
+|?Place
+|?Person
+|?Keyword record
+|?Creator
+|?Title
+|?Inscription
+|?Medium
+|?Dimensions
+|?Volume
+|?Edition
+|?Pages
+|?Figure
+|?Repository
+|?Reference ID
+|?Date
+|?Circa
+|?Concurrence
+|?Questionable
+|?EndDate
+|?EndCirca
+|?EndConcurrence
+|?EndQuestionable
+|format=RDF
+}} export
+[[Category:Images]]__NOEDITSECTION__
+</includeonly>

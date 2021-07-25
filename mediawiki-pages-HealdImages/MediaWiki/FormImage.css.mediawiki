@@ -1,0 +1,8 @@
+/* Form checkbox position fix */
+
+.checkbox-cell label {
+        margin: .5rem .5rem 0 0 !important;
+}
+.checkbox-cell [type="checkbox"] {
+        margin-right: 1rem !important;
+}

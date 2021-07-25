@@ -1,0 +1,26 @@
+<includeonly>
+{{#ask:
+[[-Has subobject::+]]
+[[~*Creation]]
+[[File:+]]
+|?Date |+filter=number |+number filter sliders=range|+hide=yes |+number filter step=1
+|?Collection filter |+filter=value |+value filter max checkboxes=5 |+value filter switches=and or
+|?Keyword |+filter=value |+value filter max checkboxes=0
+|format=filtered
+|link=none
+|views=list
+|list view type=list
+|list view template=ImageCollectionItem
+|intro=<div class="heald-collection">
+|outro=</div>
+|limit={{{1|50}}}
+}}
+</includeonly><noinclude>[[Category:Mediawiki-pages-heald-images]]
+;Usage
+<pre>
+{{ImageCollection
+|100              # number of results per page (default = 50)             
+}}
+</pre>
+</noinclude>
+

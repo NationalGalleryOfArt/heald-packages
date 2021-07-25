@@ -1,0 +1,195 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https:\/\/github.com\/NationalGalleryOfArt\/heald-packages",
+    "packages": {
+        "HEALD Images": {
+            "globalID": "gov.nga.heald-images",
+            "description": null,
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Keyword record",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FKeyword%20record.mediawiki"
+                },
+                {
+                    "name": "Keyword relationship",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Template%2FKeyword%20relationship.mediawiki"
+                },
+                {
+                    "name": "Date of Publication",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FDate%20of%20Publication.mediawiki"
+                },
+                {
+                    "name": "Pages",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FPages.mediawiki"
+                },
+                {
+                    "name": "Keyword relationship",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FKeyword%20relationship.mediawiki"
+                },
+                {
+                    "name": "Creator",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FCreator.mediawiki"
+                },
+                {
+                    "name": "Dimensions",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FDimensions.mediawiki"
+                },
+                {
+                    "name": "Edition",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FEdition.mediawiki"
+                },
+                {
+                    "name": "Showcase main Category",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FShowcase%20main%20Category.mediawiki"
+                },
+                {
+                    "name": "Showcase essay Page",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FShowcase%20essay%20Page.mediawiki"
+                },
+                {
+                    "name": "Caption",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FCaption.mediawiki"
+                },		    
+                {
+                    "name": "Images",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Category%2FImages.mediawiki"
+                },
+                {
+                    "name": "Main Categories",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Category%2FMain%20Categories.mediawiki"
+                },
+                {
+                    "name": "Reference ID",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FReference%20ID.mediawiki"
+                },
+                {
+                    "name": "Repository",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FRepository.mediawiki"
+                },
+                {
+                    "name": "Place",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FPlace.mediawiki"
+                },
+                {
+                    "name": "Person",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FPerson.mediawiki"
+                },
+                {
+                    "name": "Figure",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FFigure.mediawiki"
+                },
+                {
+                    "name": "Medium",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FMedium.mediawiki"
+                },
+                {
+                    "name": "Volume",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FVolume.mediawiki"
+                },
+                {
+                    "name": "Title",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FTitle.mediawiki"
+                },
+                {
+                    "name": "Image",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Form%2FImage.mediawiki"
+                },
+                {
+                    "name": "Image",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Template%2FImage.mediawiki"
+                },
+                {
+                    "name": "Showcase main",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Template%2FShowcase%20main.mediawiki"
+                },
+                {
+                    "name": "Showcase essay",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Template%2FShowcase%20essay.mediawiki"
+                },
+                {
+                    "name": "ImageCollection",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Template%2FImageCollection.mediawiki"
+                },
+                {
+                    "name": "ImageCollectionItem",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Template%2FImageCollectionItem.mediawiki"
+                },
+                {
+                    "name": "Enumeration.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/MediaWiki%2FEnumeration.css.mediawiki"
+                },
+                {
+                    "name": "FormImage.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/MediaWiki%2FFormImage.css.mediawiki"
+                },
+                {
+                    "name": "HealdImages.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/MediaWiki%2FHealdImages.js.mediawiki"
+                },
+                {
+                    "name": "HealdImageCollection.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/MediaWiki%2FHealdImageCollection.js.mediawiki"
+                },
+                {
+                    "name": "HealdImageCollection.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/MediaWiki%2FHealdImageCollection.css.mediawiki"
+                },
+                {
+                    "name": "File",
+                    "namespace": "NS_PROJECT",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Project%2FFile.mediawiki"
+                },
+                {
+                    "name": "Inscription",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FInscription.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+		"SemanticMediaWiki",
+		"PageForms",
+		"chameleon"
+	    ],
+            "requiredPackages": [
+		"gov.nga-heald-image-gallery",
+		"gov.nga-DateStructure"
+	    ]
+        }
+    }
+}
+

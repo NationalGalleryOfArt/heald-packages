@@ -1,0 +1,9 @@
+$( function () {
+	// Finds an image info section and moves it to the bottom
+	var $imageInfo = $( '#mw-content-text .about-image-section' ),
+	    $parserOutput = $( '#mw-content-text > .mw-parser-output' );
+
+	if ( $imageInfo.length ) {
+		$imageInfo.appendTo( $parserOutput );
+	}
+} );

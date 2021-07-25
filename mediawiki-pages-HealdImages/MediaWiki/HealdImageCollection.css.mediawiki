@@ -1,0 +1,130 @@
+/**
+* Image collection
+*/
+
+.card-columns .card {
+	overflow: hidden;
+}
+.heald-collection .card:after {
+	content:"";
+	width:100%;
+	height:100%;
+	background:rgba(255,255,255,.15);
+	position:absolute;
+	top:0;
+	left:0;
+	opacity:1;
+	transition:all .5s ease 0s
+}
+.heald-collection .card:hover:after {
+	opacity:0
+}
+.heald-collection .card a {
+	position: relative;
+	z-index: 0;
+}
+.heald-collection .card img {
+	transition:all .5s ease 0s;
+}
+.heald-collection .card:hover a {
+	z-index: 1;
+}
+.heald-collection .card:hover img {
+	transform:scale(1.1)
+}
+.heald-collection .card .caption-wrapper {
+	position:absolute;
+	transition:all .5s ease 0s
+}
+.heald-collection .card .caption-wrapper {
+	width:100%;
+	padding:20px 10px;
+	background:rgba(255,255,255,.75);
+	bottom:-100%;
+	left:0;
+	z-index:1;
+	text-align: center;
+}
+.heald-collection .card:hover .caption-wrapper{
+	bottom:0
+}
+.heald-collection .card .caption {
+	 display:block;
+	 font-size:1.1rem;
+	 font-weight:bold;
+	 color:#222;
+	 text-align:center;
+}
+.heald-collection .filtered .filtered-filters {
+	 margin: 0;
+	 display: flex;
+	 flex-wrap: wrap;
+}
+.heald-collection .filtered-views, 
+.heald-collection .filtered-filters {
+	 border: 0;
+}
+.heald-collection .filtered .filtered-views .filtered-views-container {
+	  padding: 0;
+}
+.heald-collection .filtered-filter-container {
+	background: #f7f7f7;
+	padding: .5rem 1rem;
+	border-radius: 5px;
+	text-align: center;
+}
+.heald-collection .filtered-filters .filtered-number,
+.heald-collection .filtered-filters .filtered-value {
+	margin: 1em 0 0 0;
+	border: 0;
+}
+.heald-collection .filtered-filters .filtered-number {
+	flex: 0 0 100%;
+}
+.heald-collection .filtered-value-checkboxes {
+	  display: flex;
+	  flex-direction: column;
+}
+.heald-collection .filtered-filters .filtered-value .filtered-value-option {
+	  width: 100%;
+	  text-align: left;
+}
+.heald-collection .card .badges {
+	position: absolute;
+	height: 40px;
+	width: auto;
+	z-index: 2;
+	border-radius: 5px;
+	background: #ffffffa3;
+	margin: .25rem;
+	padding-left: .5rem;
+	right: 0;
+	display: flex;
+}
+.heald-collection .card .has-person::before,
+.heald-collection .card .has-keyword::before,
+.heald-collection .card .has-place::before {
+	content: '';
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: #fff;
+	margin: .5rem .5rem 0 0;
+	background-size: contain;
+	border-radius: 50%;
+	opacity: .75;
+	z-index: 2;
+	filter: invert(1);
+}
+.heald-collection .card .has-person::before {
+	background-image: url(https://www.svgrepo.com/show/307863/graphic-designer-creative-draw-artist.svg);
+}
+.heald-collection .card .has-place::before {
+	background-image: url(https://www.svgrepo.com/show/161749/earth-globe.svg);
+}
+.heald-collection .card .has-keyword::before {
+	background-image: url(https://www.svgrepo.com/show/166933/key.svg);
+}
+@media only screen and (max-width:990px){.heald-collection .card{margin-bottom:30px}
+}
+

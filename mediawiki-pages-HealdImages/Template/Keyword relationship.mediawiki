@@ -1,0 +1,3 @@
+<includeonly>{{#set:Keyword record={{{Keyword relationship|}}};{{{Keyword|}}}}}{{#subobject:Creation|Keyword={{{Keyword|}}}}}
+:{{{Keyword relationship|}}}: [[{{{Keyword|}}}]]
+</includeonly>

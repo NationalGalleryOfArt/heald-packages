@@ -1,0 +1,102 @@
+<noinclude>
+This is the "Image" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Image|autocomplete on category=Images}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Image}}}
+== Relationships ==
+{| class="formtable"
+! Place:
+| {{{field|Place}}}
+|-
+! People:
+| {{{field|People}}}
+|-
+! Keyword relationships:
+| {{{field|Keyword relationships|holds template}}}
+|}
+
+== Information ==
+{| class="formtable"
+! Creator:
+| {{{field|Creator}}}
+|-
+! Date:
+| {{Form:Date|Prefix=Creation}}
+|-
+! Title:
+| {{{field|Title}}}
+|-
+! Inscription:
+| {{{field|Inscription|input type=textarea}}}
+|-
+! Medium:
+| {{{field|Medium}}}
+|-
+! Dimensions: {{#info: Height x Width in the form XX x ZZ in. (aa x bb cm)}}
+| {{{field|Dimensions}}}
+|- 
+! Caption:
+| {{{field|Caption|mandatory}}}
+|}
+
+== Showcase ==
+{| class="formtable"
+|-
+! Main category
+| class="pl-3 checkbox-cell" | {{{field|Showcase main|input type=checkbox|label=Designate image as representative of one of the main categories|show on select=Yes=>showcase-main-category;}}} (Keywords, Places, People)
+|- id="showcase-main-category"
+!
+| class="pl-3" | {{{field|Showcase main Category|input type=dropdown|values=Keywords,Places,People|mandatory}}}
+|-
+! Essay page
+| class="pl-3 checkbox-cell" | {{{field|Showcase essay|input type=checkbox|label=Designate image as representative of an essay|show on select=Yes=>showcase-essay-page;}}}
+|- id="showcase-essay-page"
+!
+| class="pl-3 " | {{{field|Showcase essay Page|input type=combobox|values from category=Essays|mandatory}}}
+|}
+
+== Reference ==
+{| class="formtable"
+! Date of Publication:
+| {{Form:Date|Prefix=Publication}}
+|-
+! Volume:
+| {{{field|Volume}}}
+|-
+! Edition:
+| {{{field|Edition}}}
+|-
+! Page:
+| {{{field|Page number}}}
+|-
+! Figure:
+| {{{field|Figure}}}
+|-
+! Repository:
+| {{{field|Repository}}}
+|-
+! Reference ID:
+| {{{field|Reference ID}}}
+|}
+{{{end template}}}
+
+{{{for template|Keyword relationship|embed in field=Image[Keyword relationships]|multiple}}}
+{| class="formtable"
+! Keyword relationship:
+| {{{field|Keyword relationship|property=Keyword relationship}}}
+|-
+! Keyword:
+| {{{field|Keyword|property=Keyword|input type=text with autocomplete|values from category=Keywords}}}
+|}
+{{{end template}}}
+
+'''Text field:'''
+
+{{{standard input|free text|rows=10}}}
+</includeonly>
+

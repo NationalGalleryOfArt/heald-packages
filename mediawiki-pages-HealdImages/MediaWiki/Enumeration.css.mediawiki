@@ -1,0 +1,41 @@
+	/**
+	* ### Inline formatting of a series of elements ###
+	*
+	* Wrap a series of elements of class 'enum-el' in a span with class:
+	* - 'enum-series': comma separated list of elements, "and" before the last element 
+	* - 'enum-series or': comma separated list of elements, "or" before the last element 
+	* - 'enum-series semicolon': semicolon separated list of elements, "and" before the last element 
+	* - 'enum-series semicolon or': semicolon separated list of elements, "or" before the last element 
+	* The above methods add delimiters visually. 
+	*
+	* To have a real delimiter, use something like that:
+	* <span class="delimiter-series"><span class="delimited-el">element<span class="delimiter">; </span></span> ... </span>
+	* The CSS rule will just hide the delimiter after the last element.
+	*
+	*/
+
+	.enum-series .enum-el::after {
+		content: ',\00a0';
+	}
+	.enum-series.semicolon .enum-el::after {
+		content: ';\00a0';
+	}
+	.enum-series .enum-el:last-of-type::after, .enum-series .enum-el:nth-last-child(2)::after {
+		content: '';
+	}
+	.enum-series .enum-el:last-of-type::before {
+		content: '\00a0 and \00a0';
+	}
+	.enum-series .enum-el:first-of-type::before {
+		content: '' !important;
+	}
+	.enum-series.or .enum-el:last-of-type::before {
+		content: '\00a0 or \00a0';
+	}
+	.enum-series.semicolon .enum-el:last-of-type::before {
+		content: ';\00a0';
+	}
+	
+	.delimited-series .delimited-el:last-of-type .delimiter {
+		display: none;
+	}

@@ -1,0 +1,25 @@
+<div class="heald-gallery">
+{{#tag:gallery|
+{{#arraymap:Keywords,Places,People
+|,
+|@
+|{{#ask: [[{{#ask:
+    [[File:+]]
+    [[Showcase main Category::@]]
+    |format=array
+    |order=rand
+    |limit=1
+    |searchlabel=
+}}]]
+|?Caption
+|propsep={{!}}
+|format=array
+|headers=hide
+|outro={{!}}link=Category:@
+}}
+|\n
+}}
+|mode=packed
+|heights=320px
+}}
+</div><noinclude>[[Category:Mediawiki-pages-heald-images]]</noinclude>
