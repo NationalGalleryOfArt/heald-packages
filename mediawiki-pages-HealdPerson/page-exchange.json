@@ -1,0 +1,64 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https://github.com/NationalGalleryOfArt/heald-packages",
+    "packages": {
+        "HEALDPerson": {
+            "globalID": "gov.nga.heald-person",
+            "description": "Provides a collection of wiki pages for easy inclusion of Person fields and semantics in the HEALD wiki.",
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Person",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Form%2FPerson.mediawiki"
+                },
+                {
+                    "name": "Alternate name",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Property%2FAlternate%20name.mediawiki"
+                },
+                {
+                    "name": "Birth Location",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Property%2FBirth%20Location.mediawiki"
+                },
+                {
+                    "name": "Keyword",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Property%2FKeyword.mediawiki"
+                },
+                {
+                    "name": "Location",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Property%2FLocation.mediawiki"
+                },
+                {
+                    "name": "Role",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Property%2FRole.mediawiki"
+                },
+                {
+                    "name": "Person",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Template%2FPerson.mediawiki"
+                },
+                {
+                    "name": "People",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPerson\/Category%2FPeople.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+                "SemanticMediaWiki",
+                "PageForms"
+            ],
+             "requiredPackages": [
+                "gov.nga.ExternalLink",
+                "gov.nga.DateStructure",
+                "gov.nga.AllowedValues"
+            ]
+        }
+    }
+}

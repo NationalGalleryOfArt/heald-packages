@@ -1,0 +1,55 @@
+<includeonly>
+== Overview ==
+<div class="heald-infobox mb-3">
+{{#if: {{{Alternate names|}}}
+  |<p>'''Alternate names:''' {{#arraymap:{{{Alternate names|}}}|;|x|[[Alternate name::x]]}}</p>
+}}<!--
+
+-->{{#if: {{{Birth Date|}}}
+     |<p>'''Birth Date:'''  {{Date
+        |Birth
+        |Date={{{Birth Date|}}}
+        |Circa={{{Birth Circa|}}}
+        |Concurrence={{{Birth Concurrence|}}}
+        |Questionable={{{Birth Questionable|}}}
+        |EndDate={{{Birth Date End|}}}
+        |EndCirca={{{Birth Circa End|}}}
+        |EndConcurrence={{{Birth Concurrence End|}}}
+        |EndQuestionable={{{Birth Questionable End|}}}
+      }}</p>
+}}<!--
+
+-->{{#if: {{{Death Date|}}}
+     |<p>'''Death Date:'''  {{Date
+        |Death
+        |Date={{{Death Date|}}}
+        |Circa={{{Death Circa|}}}
+        |Concurrence={{{Death Concurrence|}}}
+        |Questionable={{{Death Questionable|}}}
+        |EndDate={{{Death Date End|}}}
+        |EndCirca={{{Death Circa End|}}}
+        |EndConcurrence={{{Death Concurrence End|}}}
+        |EndQuestionable={{{Death Questionable End|}}}
+      }}</p>
+}}<!--
+
+-->{{#if: {{{Birth Location|}}}
+     |<p>'''Birth Location:''' [[Birth Location::{{{Birth Location|}}}]]</p>
+   }}<!--
+
+-->{{#if: {{{Roles|}}}
+     |<p>'''Role:''' {{#arraymap:{{{Roles|}}}|;|x|[[Role::x]]}}</p>
+   }}<!--
+
+-->{{#if: {{{Keywords|}}}
+     |<p>'''Used Keywords:''' {{#arraymap:{{{Keywords|}}}|;|x|[[Keyword::x]]}}</p>
+   }}<!--
+
+-->{{#if: {{{Other resources|}}}
+     |<p>'''Other resources:''' {{{Other resources|}}}</p>
+   }}
+
+[[:Special:ExportRDF/{{PAGENAME}}|Export as RDF]]
+</div>
+[[Category:People]]
+</includeonly><noinclude>[[Category:Mediawiki-pages-HealdPerson]]</noinclude>
