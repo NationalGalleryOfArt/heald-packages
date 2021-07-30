@@ -1,0 +1,21 @@
+<includeonly><span class="delimited-el">[[{{{Name|}}}]]<!--
+  -->{{#if:{{{From Date|}}}{{{End Date|}}}|&#32;<span class="date-range"><!--
+  -->{{#if: {{{From Date|}}}
+       |{{DateFormatDate
+         |Date={{{From Date|}}}
+         |Circa={{{From Circa}}}
+         |Concurrence={{{From Concurrence|Exact}}}
+         |Questionable={{{From Questionable|}}}
+        }}
+     }}<!--
+  -->{{#if: {{{End Date|}}}
+       |{{#if: {{{From Date|}}}|&ndash;}}{{DateFormatDate
+         |Date={{{End Date|}}}
+         |Circa={{{End Circa}}}
+         |Concurrence={{{End Concurrence|Exact}}}
+         |Questionable={{{End Questionable|}}}
+        }}
+     }}<!--
+  --></span>}}{{#if: {{{Role|}}}|, {{lc:{{{Role|}}}}}}}<span class="delimiter">;&#32;</span></span><!--
+  -->{{#set: Associated person={{{Name|}}};{{{Role|}}};{{{From Date|}}};{{{End Date|}}}}}</includeonly><noinclude>
+[[Category:Mediawiki-pages-heald-places]]</noinclude>

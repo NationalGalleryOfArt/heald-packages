@@ -1,0 +1,21 @@
+<includeonly><span class="delimited-el">[[{{{Name|}}}]]{{#if:{{{Owned Date|}}}{{{Owned Date End|}}}
+  |&#32;<span class="date-range"><!--
+  -->{{#if: {{{Owned Date|}}}
+       |{{DateFormatDate
+         |Date={{{Owned Date|}}}
+         |Circa={{{Owned Circa}}}
+         |Concurrence={{{Owned Concurrence|Exact}}}
+         |Questionable={{{Owned Questionable|}}}
+        }}
+     }}<!--
+  -->{{#if: {{{Owned Date End|}}}
+       |{{#if: {{{Owned Date|}}}|&ndash;}}{{DateFormatDate
+         |Date={{{Owned Date End|}}}
+         |Circa={{{Owned Circa End}}}
+         |Concurrence={{{Owned Concurrence End|Exact}}}
+         |Questionable={{{Owned Questionable End|}}}
+        }}
+     }}<!--
+  --></span>}}<span class="delimiter">;&#32;</span></span><!--
+  -->{{#set: Site owner={{{Name|}}};{{{Owned Date|}}};{{{Owned Date End|}}} }}<!--
+  --></includeonly><noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

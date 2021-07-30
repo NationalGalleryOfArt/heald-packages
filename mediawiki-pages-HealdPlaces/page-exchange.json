@@ -1,0 +1,92 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https://github.com/NationalGalleryOfArt/heald-packages",
+    "packages": {
+        "HEALD Places": {
+            "globalID": "gov.nga.heald-places",
+            "description": "Contains the Place data structure for the HEALD wiki.",
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Place",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Form%2FPlace.mediawiki"
+                },
+                {
+                    "name": "Heald-places.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/MediaWiki%2FHeald-places.css.mediawiki"
+                },
+                {
+                    "name": "Associated person",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Property%2FAssociated%20person.mediawiki"
+                },
+                {
+                    "name": "Condition",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Property%2FCondition.mediawiki"
+                },
+                {
+                    "name": "End Date",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Property%2FEnd%20Date.mediawiki"
+                },
+                {
+                    "name": "From Date",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Property%2FFrom%20Date.mediawiki"
+                },
+                {
+                    "name": "Name",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Property%2FName.mediawiki"
+                },
+                {
+                    "name": "Site owner",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Property%2FSite%20owner.mediawiki"
+                },
+                {
+                    "name": "Associated people field set",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Template%2FAssociated%20people%20field%20set.mediawiki"
+                },
+                {
+                    "name": "Associated person",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Template%2FAssociated%20person.mediawiki"
+                },
+                {
+                    "name": "Place",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Template%2FPlace.mediawiki"
+                },
+                {
+                    "name": "Site owner",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Template%2FSite%20owner.mediawiki"
+                },
+                {
+                    "name": "Places",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdPlaces\/Category%2FPlaces.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+	            "PageForms",
+	            "SemanticMediaWiki",
+	            "chameleon"
+            ],
+	        "requiredPackages": [
+                    "gov.nga.heald-images",
+                    "gov.nga.ExternalLink",
+                    "gov.nga.DateStructure",
+                    "gov.nga.Geolocation",
+                    "gov.nga.heald-person"
+	        ]
+        }
+    }
+}

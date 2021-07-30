@@ -1,0 +1,20 @@
+<includeonly><table>
+<tr>
+  <td> '''Name:''' </td>
+  <td> {{{field{{!}}Name{{!}}input type=combobox{{!}}values from category=People{{!}}mandatory}}} </td>
+</tr>
+<tr>
+  <td> '''Role:''' </td>
+  <td> {{{field{{!}}Role{{!}}input type=combobox{{!}}property=Role}}} </td>
+</tr>
+</table>
+<table>
+<tr class="align-top adjustable-date {{{1|}}}">
+  <td> '''From:''' </td>
+  <td> {{Form:Date|Prefix=From}}
+</tr>
+<tr class="align-top adjustable-date {{{1|}}}">
+  <td> '''End:''' </td>
+  <td> {{Form:Date|Prefix=End}}
+</tr>
+</table></includeonly><noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

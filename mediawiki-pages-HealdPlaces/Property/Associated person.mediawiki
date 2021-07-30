@@ -1,0 +1,2 @@
+This is a property of type [[Has type::Record]]. Has fields: [[Has fields::Name;Role;From Date;End Date]].
+[[Category:Mediawiki-pages-heald-places]]

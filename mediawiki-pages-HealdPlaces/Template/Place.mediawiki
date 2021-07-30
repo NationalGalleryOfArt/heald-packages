@@ -1,0 +1,59 @@
+<includeonly>
+== Overview ==
+<div class="heald-infobox">
+{{#if: {{{Alternate names|}}}|
+<p>'''Alternate Names:''' {{#arraymap:{{{Alternate names|}}}|;|x|[[Alternate name::x]]|;&#32;}}</p>
+}}<!--
+  -->{{#if: {{{Established Date|}}}{{{Through Date|}}}{{{Established Date End|}}}{{{Through Date End|}}}|
+<p>'''Site Dates:'''  {{Date
+  |Established
+  |Present={{{Established Present|}}}
+  |Date={{{Established Date|}}}
+  |Circa={{{Established Circa|}}}
+  |Concurrence={{{Established Concurrence|}}}
+  |Questionable={{{Established Questionable|}}}
+  |EndPresent={{{Established Present End|}}}
+  |EndDate={{{Established Date End|}}}
+  |EndCirca={{{Established Circa End|}}}
+  |EndConcurrence={{{Established Concurrence End|}}}
+  |EndQuestionable={{{Established Questionable End|}}}
+}}&ndash;{{Date
+  |Through
+  |Present={{{Through Present|}}}
+  |Date={{{Through Date|}}}
+  |Circa={{{Through Circa|}}}
+  |Concurrence={{{Through Concurrence|}}}
+  |Questionable={{{Through Questionable|}}}
+  |EndPresent={{{Through Present End|}}}
+  |EndDate={{{Through Date End|}}}
+  |EndCirca={{{Through Circa End|}}}
+  |EndConcurrence={{{Through Concurrence End|}}}
+  |EndQuestionable={{{Through Questionable End|}}}
+}}</p>
+}}<!--
+  -->{{#if: {{{Site owners|}}}|
+<p>'''Site Owner(s):''' <span class="delimited-series">{{{Site owners|}}}</span></p>
+}}<!--
+  -->{{#if: {{{Associated people|}}}|
+<p>'''Associated People:''' <span class="delimited-series">{{{Associated people|}}}</span></p>
+}}<!--
+  -->{{#if: {{{Location|}}}|
+<p>'''Location:''' [[Location::{{{Location|}}}]] {{Geolocation
+|Full address={{{Full address|}}}
+|Coordinates={{{Coordinates|}}}
+|Geolocation link={{{Geolocation link|}}}
+|inline
+}}</p>
+}}<!--
+  -->{{#if: {{{Condition|}}}|
+<p>'''Condition:''' [[Condition::{{{Condition|}}}]]</p>
+}}<!--
+  -->{{#if: {{{Keywords|}}}|
+<p>'''Keywords:''' {{#arraymap:{{{Keywords|}}}|;|x|[[Keyword::x]]|;&#32;}}</p>
+}}<!--
+  -->{{#if: {{{Other resources|}}}|
+<p>'''Other Resources:''' <span class="delimited-series">{{{Other resources|}}}</span></p>
+}}
+</div>
+[[Category:Places]]
+</includeonly><noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

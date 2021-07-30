@@ -1,0 +1,59 @@
+<noinclude>
+This is the "Place" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Place|autocomplete on category=Places}}
+[[Category:Mediawiki-pages-heald-places]]
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Place}}}
+{| class="formtable"
+! Alternate names: 
+| {{{field|Alternate names|input type=tokens|list|delimiter=;}}}
+|-
+! Date established: 
+| {{Form:Date|Prefix=Established}}
+|-
+! Date through: 
+| {{Form:Date|Prefix=Through}}
+|-
+! Location: 
+| {{{field|Location|feeds to map=Place[Coordinates]}}}
+{{Geolocation field set|Place}}
+|-
+! Condition: 
+| {{{field|Condition}}}
+|-
+! Keywords: 
+| {{{field|Keywords|input type=tokens|list|delimiter=;|values from category=Keywords}}}
+|-
+! Site owners: 
+| {{{field|Site owners|holds template}}}
+|- class="align-top"
+! class="pt-3" |Associated people: 
+| {{{field|Associated people|holds template}}}
+|-
+! Other resources: 
+| {{{field|Other resources|holds template}}}
+|}
+{{{end template}}}
+<!-- -->{{{for template|Associated person|multiple|embed in field=Place[Associated people]|add button text=Add person}}}
+<!-- -->{{Associated people field set|hide-end-date}}
+<!-- -->{{{end template}}}
+<!-- -->{{{for template|Site owner|multiple|embed in field=Place[Site owners]|add button text=Add site owner}}}
+<!-- -->{| class="formtable"
+<!-- -->! Name: 
+<!-- -->| {{{field|Name|input type=combobox|values from category=People}}}
+<!-- -->|-
+<!-- -->! Date: 
+<!-- -->| {{Form:Date|Prefix=Owned}}
+<!-- -->|}
+<!-- -->{{{for template|ExternalLink|multiple|embed in field=Place[Other resources]|add button text=Add resource}}}
+<!-- -->{{:Form:ExternalLink}}
+<!-- -->{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+</includeonly>
