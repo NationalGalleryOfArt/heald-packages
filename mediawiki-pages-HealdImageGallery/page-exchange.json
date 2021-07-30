@@ -1,0 +1,25 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https://github.com/NationalGalleryOfArt/heald-packages",
+    "packages": {
+        "HEALD Image Gallery": {
+            "globalID": "gov.nga.HealdImageGallery",
+            "description": "Stylizes the Mediawiki image gallery as a responsive navigational element.",
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "ImageGallery.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImageGallery\/Mediawiki%2FImageGallery.css.mediawiki"
+                },
+                {
+                    "name": "ImageGallery.js",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImageGallery\/Mediawiki%2FImageGallery.js.mediawiki"
+                }
+            ]
+        }
+    }
+}

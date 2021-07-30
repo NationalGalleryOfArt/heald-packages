@@ -1,0 +1,188 @@
+ /* Heald  Image Gallery  - exactly 3 images across, same height */
+
+ .heald-gallery {
+   padding-top: 3rem;
+ }
+ .heald-gallery ul.gallery {
+   margin: 0.3em 0 0 0 !important;
+   width: calc(100%);
+   flex-wrap: nowrap;
+   display: flex;
+   justify-content: center;
+ }
+ @media screen and ( max-width: 576px ) {
+   .heald-gallery ul.gallery {
+      flex-direction: column;
+      align-items: center;
+   }
+ }
+ .heald-gallery ul.gallery li.gallerybox > div {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+ }
+ .heald-gallery ul.gallery li.gallerybox a:hover {
+     text-decoration: none !important;
+ }
+ .heald-gallery div.gallerytext {
+     padding: 2px 8px;
+ }
+ .heald-gallery div.gallerytext, .heald-gallery div.gallerytext p {
+    font-size: 92%;
+ }
+ .heald-gallery div.gallerytext a,
+ .heald-gallery div.gallerytext p {
+    color: #01443e !important;
+    line-height: 21px !important;
+    font-size: 14px !important;
+ }
+ .heald-gallery li.gallerybox div.thumb {
+    text-align: center;
+    margin: 0 20px;
+ }
+ .heald-gallery li.gallerybox div.thumb > a {
+    position: absolute;
+ }
+
+ .icon-64 {
+    height: 64px;
+    width: 64px;
+    margin-top: -30px !important;
+    position: absolute;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -32px;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 4px solid black;
+ }
+ .icon-64.keywords, .icon-64.places, .icon-64.people {
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+    -webkit-filter: invert(1);
+            filter: invert(1);
+    background-color: #febbc1 !important;
+ }
+ .icon-64.keywords {
+    background-image: url(https://www.svgrepo.com/show/166933/key.svg);
+ }
+ .icon-64.places {
+    background-image: url(https://www.svgrepo.com/show/161749/earth-globe.svg);
+    background-position: 44% 63%;
+ }
+ .icon-64.people {
+    background-image: url(https://www.svgrepo.com/show/307863/graphic-designer-creative-draw-artist.svg);
+ }
+
+ .container-photo {
+    padding: 0;
+    overflow: hidden;
+    border: 3px solid #e3e3e3;
+ }
+ .container-photo .header { 
+    background-color: #fff;
+    padding-top: 2.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+    z-index: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    position: relative;
+ }
+ .showcase-essay {
+    background-color: #fff;
+    padding: 1rem .5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+    z-index: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .showcase-essay, .showcase-essay a, .showcase-title {
+    color: #01443e !important;
+ }
+ .showcase-title {
+    font-weight: bold;
+ }
+ .showcase-essay small {
+    display: block;
+    line-height: 20px;
+    padding-top: .5rem;
+    font-size: 14px !important
+ }
+ .container-photo .h2 {
+    font-size: 20px;
+    margin-top: 0;
+    color: #01443e;
+    text-transform: uppercase;
+    font-variant: sub;
+ }
+ .container-photo hr {
+    width:40px;
+    margin-top:0;
+    border-color: #01443e;
+ }
+ .container-photo img {
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+ }
+ .container-photo:hover img {
+    -webkit-transform: scale(1.075);
+        -ms-transform: scale(1.075);
+            transform: scale(1.075);
+ }
+
+ .heald-gallery.noheader .container-photo .header {
+    display: none;
+ }
+ .heald-gallery.noicon .icon-64 {
+    display: none !important;
+ }
+ .heald-gallery.noicon .container-photo .header {
+    padding-top: .5rem;
+ }
+ .heald-gallery.noborder .container-photo {
+    border: 0;
+ }
