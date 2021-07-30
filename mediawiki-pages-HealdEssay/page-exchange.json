@@ -1,0 +1,50 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https://github.com/NationalGalleryOfArt/heald-packages",
+    "packages": {
+        "HEALDEssays": {
+            "globalID": "gov.nga.heald-essays",
+            "description": "Provides a collection of wiki pages for easy inclusion of Essay fields and semantics in Mediawiki projects (HEALD wiki).",
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Essay",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdEssay\/Form%2FEssay.mediawiki"
+                },
+                {
+                    "name": "Author",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdEssay\/Property%2FAuthor.mediawiki"
+                },
+                {
+                    "name": "Subtitle",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdEssay\/Property%2FSubtitle.mediawiki"
+                },
+                {
+                    "name": "Essay",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdEssay\/Template%2FEssay.mediawiki"
+                },
+                {
+                    "name": "Essay field set",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdEssay\/Template%2FEssay%20field%20set.mediawiki"
+                },
+                {
+                    "name": "Essays",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdEssay\/Category%2FEssays.mediawiki"
+                }
+            ],
+            "requiredExtensions": [
+                    "SemanticMediaWiki",
+                    "PageForms",
+                    "ParserFunctions"
+            ]
+        }
+    }
+}

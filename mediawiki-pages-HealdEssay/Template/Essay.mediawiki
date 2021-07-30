@@ -1,0 +1,6 @@
+<includeonly><!--
+ -->{{#set:
+      |Subtitle={{{Subtitle|}}}
+      |Author={{{Authors|}}}|+sep=;
+    }}<!-- 
+ -->[[Category:Essays]]</includeonly><noinclude>[[Category:Mediawiki-pages-heald-essays]]</noinclude>
