@@ -1,8 +1,13 @@
 *navigation
 **Home|Home
 **Project Introduction|Project Introduction
-**Digital Approach|Digital Approach
 **History of Early American Landscape Design:Image Collection|Image Collection
+
+*Digital Approach
+**Digital Approach and Vision|Digital Approach and Vision
+**Semantic HEALD|Semantic HEALD
+**User's Guide|User's Guide
+**Recent Upgrade|Recent Upgrade
 
 *browse-nav
 **Category:Keywords|Keywords
