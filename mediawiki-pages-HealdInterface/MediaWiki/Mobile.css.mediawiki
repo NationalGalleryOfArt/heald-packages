@@ -13,7 +13,7 @@ padding-right: 0.8em;
 }
 
 .content p {
-font-family: serif; 
+font-family: serif;
 }
 
 .content h2 {
@@ -37,4 +37,15 @@ font-family: serif;
 dl {
 margin-left: 0.5em;
 font-family: serif;
+}
+
+/* Hide page title in File namespace */
+
+body.ns-6.action-view h1.firstHeading,
+body.ns-6.action-submit h1.firstHeading {
+display: none;
+}
+
+#filetoc {
+margin-top: .5rem;
 }
