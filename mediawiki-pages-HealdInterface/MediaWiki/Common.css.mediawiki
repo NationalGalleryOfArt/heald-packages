@@ -68,7 +68,7 @@ height: 105px;
 /*background-image: url();*/
 background-color: #f5f5f5;
 background-repeat: no-repeat;
-background-size: cover;  
+background-size: cover;
 background-position: center;
 }
 
@@ -232,6 +232,14 @@ padding-top: 8px;
 }
 
 #filetoc {
+margin-top: .5rem; 
+display: none;
+}
+
+/* Hide page title in File namespace */
+
+body.ns-6.action-view h1.firstHeading,
+body.ns-6.action-submit h1.firstHeading {
 display: none;
 }
 
@@ -363,7 +371,7 @@ padding: 0px 7px 7px 7px;
 margin-bottom: 10em;
 }
 
-#menu {  
+#menu {
 background: #FFFFFF;
 box-sizing: border-box;
 padding: 2px;
@@ -410,7 +418,7 @@ ul#menu a {
   text-decoration: none;
   position: relative;
   color: #000000;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 ul#menu li > a:after {
@@ -456,7 +464,7 @@ ul#menu li > a:hover:after {
 body.page-Main_Page #ca-delete {
     display: none !important;
 }
- 
+
 body.page-Main_Page #mp-topbanner {
    clear: both;
 }
@@ -486,19 +494,19 @@ padding-left: 0.5em;
 #footer ul {
 list-style: none;
 }
- 
+
 /* Edit window toolbar */
 #toolbar {
     height: 22px;
     margin-bottom: 6px;
 }
- 
+
 /* Margins for <ol> and <ul> */
 #content ol, #content ul,
 #mw_content ol, #mw_content ul {
   margin-bottom: 0.5em;
 }
- 
+
 
 /* Make the list of references smaller */
 ol.references {
@@ -508,10 +516,10 @@ ol.references {
 }
 
 
-.references-small { 
+.references-small {
     font-size: 90%;
 }
- 
+
 /* VALIDATOR NOTICE: the following is correct, but the W3C validator doesn't accept it */
 /* -moz-* is a vendor-specific extension (CSS 2.1 4.1.2.1) */
 /* column-count is from the CSS3 module "CSS Multi-column Layout" */
@@ -522,14 +530,14 @@ ol.references {
     -webkit-column-count: 2;
     column-count: 2;
 }
- 
+
 /* Highlight clicked reference in blue to help navigation */
 ol.references > li:target,
 sup.reference:target,
-cite:target { 
+cite:target {
     background-color: #DEF;
 }
- 
+
 /*ol.references > li:target::before {
 display: block;
 height: 5px;
@@ -541,8 +549,8 @@ sup.reference {
     font-weight: normal;
     font-style: normal;
 }
- 
- 
+
+
 /* Styling for citations */
 cite {
     font-style: normal;
@@ -550,7 +558,7 @@ cite {
 }
 
 
-/* Two columns for category pages */ 
+/* Two columns for category pages */
 .mw-category {
       column-count: 2;
 }
@@ -564,8 +572,8 @@ cite {
         display: none;
     }
 }
- 
- 
+
+
 /* wikitable/prettytable class for skinning normal tables */
 table.wikitable,
 table.prettytable {
@@ -588,11 +596,11 @@ table.prettytable {
 .prettytable caption {
     font-weight: bold;
 }
- 
+
 /* Default skin for navigation boxes */
 table.navbox {            /* Navbox container style */
   border: 1px solid #aaa;
-  width: 100%; 
+  width: 100%;
   margin: auto;
   clear: both;
   font-size: 88%;
@@ -640,7 +648,7 @@ table.navbox th {
 .navbox-odd {
   background: transparent; /* Odd row striping */
 }
- 
+
 .collapseButton {          /* 'show'/'hide' buttons created dynamically */
     float: right;          /* by the CollapsibleTables javascript in    */
     font-weight: normal;   /* [[MediaWiki:Common.js]]are styled here    */
@@ -650,8 +658,8 @@ table.navbox th {
 .navbox .collapseButton {  /* In navboxes, the show/hide button balances */
     width: 6em;            /* the vde links from [[Template:Tnavbar]],   */
 }                          /* so they need to be the same width.         */
- 
- 
+
+
 /* Infobox template style */
 .infobox {
     border: 1px solid #aaa;
@@ -680,12 +688,12 @@ table.navbox th {
 .infobox.bordered .borderless th {
     border: 0;
 }
- 
+
 .infobox.sisterproject {
     width: 20em;
     font-size: 90%;
 }
- 
+
 .infobox.standard-talk {
     border: 1px solid #c0c090;
     background-color: #f8eaba;
@@ -694,7 +702,7 @@ table.navbox th {
 .infobox.standard-talk.bordered th {
     border: 1px solid #c0c090;
 }
- 
+
 /* styles for bordered infobox with merged rows */
 .infobox.bordered .mergedtoprow td,
 .infobox.bordered .mergedtoprow th {
@@ -702,22 +710,22 @@ table.navbox th {
     border-top: 1px solid #aaa;
     border-right: 1px solid #aaa;
 }
- 
+
 .infobox.bordered .mergedrow td,
 .infobox.bordered .mergedrow th {
     border: 0;
     border-right: 1px solid #aaa;
 }
- 
+
 /* Styles for geography infoboxes, eg countries,
    country subdivisions, cities, etc.            */
 .infobox.geography {
     text-align: left;
     border-collapse: collapse;
-    line-height: 1.2em; 
+    line-height: 1.2em;
     font-size: 90%;
 }
- 
+
 .infobox.geography  td,
 .infobox.geography  th {
     border-top: solid 1px #aaa;
@@ -728,31 +736,31 @@ table.navbox th {
     border-top: solid 1px #aaa;
     padding: 0.4em 0.6em 0.2em 0.6em;
 }
- 
+
 .infobox.geography .mergedrow td,
 .infobox.geography .mergedrow th {
     border: 0;
     padding: 0 0.6em 0.2em 0.6em;
 }
- 
+
 .infobox.geography .mergedbottomrow td,
 .infobox.geography .mergedbottomrow th {
     border-top: 0;
     border-bottom: solid 1px #aaa;
     padding: 0 0.6em 0.4em 0.6em;
 }
- 
+
 .infobox.geography .maptable td,
 .infobox.geography .maptable th {
     border: 0;
     padding: 0;
 }
- 
+
 /* Makes redirects appear in italics in categories and on [[Special:Allpages]] */
 .redirect-in-category, .allpagesredirect {
     font-style: italic;
 }
- 
+
 /* Icons for medialist templates [[Template:Listen]],
    [[Template:Multi-listen_start]], [[Template:Video]],
    [[Template:Multi-video_start]]
@@ -762,7 +770,7 @@ div.listenlist {
        /* url("http://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Gnome-speakernotes.png/30px-Gnome-speakernotes.png");*/
     padding-left: 40px;
 }
- 
+
 /* Style rules for media list templates */
 div.medialist {
     min-height: 50px;
@@ -771,7 +779,7 @@ div.medialist {
     background-repeat: no-repeat;
 }
 div.medialist ul {
-    list-style-type: none; 
+    list-style-type: none;
     list-style-image: none;
     margin: 0;
 }
@@ -782,44 +790,44 @@ div.medialist ul li li {
     font-size: 91%;
     padding-bottom: 0;
 }
- 
+
 /* Change the external link icon to an Adobe icon for all PDF files
    in browsers that support these CSS selectors, like Mozilla and Opera */
-#bodyContent a[href$=".pdf"].external, 
-#bodyContent a[href*=".pdf?"].external, 
+#bodyContent a[href$=".pdf"].external,
+#bodyContent a[href*=".pdf?"].external,
 #bodyContent a[href*=".pdf#"].external,
-#bodyContent a[href$=".PDF"].external, 
-#bodyContent a[href*=".PDF?"].external, 
+#bodyContent a[href$=".PDF"].external,
+#bodyContent a[href*=".PDF?"].external,
 #bodyContent a[href*=".PDF#"].external,
-#mw_content  a[href$=".pdf"].external, 
-#mw_content  a[href*=".pdf?"].external, 
+#mw_content  a[href$=".pdf"].external,
+#mw_content  a[href*=".pdf?"].external,
 #mw_content  a[href*=".pdf#"].external,
-#mw_content  a[href$=".PDF"].external, 
-#mw_content  a[href*=".PDF?"].external, 
+#mw_content  a[href$=".PDF"].external,
+#mw_content  a[href*=".PDF?"].external,
 #mw_content  a[href*=".PDF#"].external {
-    background: 
+    background:
         /*url("http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Icons-mini-file_acrobat.gif/15px-Icons-mini-file_acrobat.gif")*/
         center right no-repeat;
     padding-right: 16px;
 }
- 
+
 /* Change the external link icon to an Adobe icon anywhere the PDFlink class
    is used (notably Template:PDFlink). This works in IE, unlike the above. */
 #bodyContent span.PDFlink a,
 #mw_content span.PDFlink a {
-    background: 
+    background:
         /*url("http://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Icons-mini-file_acrobat.gif/15px-Icons-mini-file_acrobat.gif")*/
         center right no-repeat;
     padding-right: 17px;
 }
- 
+
 /* Remove link styling. Already defined in monobook
    and modern, but not defined in the other skins. Bug 18708 */
 #bodyContent .plainlinks a {
     background: none !important;
     padding: 0 !important;
 }
- 
+
 /* Content in columns with CSS instead of tables [[Template:Columns]] */
 div.columns-2 div.column {
     float: left;
@@ -841,10 +849,10 @@ div.columns-5 div.column {
     width: 20%;
     min-width: 120px;
 }
- 
-/* Make sure that "external references" from templates like [[Template:Ref]] 
-   do not get URL expansion, not even when printed. The anchor itself has 
-   class "external autonumber" and the url expansion is inserted when printing 
+
+/* Make sure that "external references" from templates like [[Template:Ref]]
+   do not get URL expansion, not even when printed. The anchor itself has
+   class "external autonumber" and the url expansion is inserted when printing
    (see [http://en.wikipedia.org/skins-1.5/common/commonPrint.css]) using the
    ":after" pseudo-element.
 */
@@ -852,9 +860,9 @@ div.columns-5 div.column {
 .nourlexpansion a.external.autonumber:after {
     display: none !important;
 }
- 
+
 /* The legacy implementation of this was with "plainlinksneverexpand", which
-   also simulated "plainlinks".  "plainlinksneverexpand" is deprecated and 
+   also simulated "plainlinks".  "plainlinksneverexpand" is deprecated and
    should be replaced with "plainlinks nourlexpansion".  When this has been
    done, the rules below can be removed.
 */
@@ -866,7 +874,7 @@ div.columns-5 div.column {
 .plainlinksneverexpand a.external.autonumber:after {
     display: none !important;
 }
- 
+
 /* Messagebox templates */
 .messagebox {
     border: 1px solid #aaa;
@@ -905,7 +913,7 @@ div.columns-5 div.column {
     float: right;
     clear: both;
     margin: 0 0 1em 1em;
-    line-height: 1.25em; 
+    line-height: 1.25em;
 }
 .messagebox.small-talk {
     width: 238px;
@@ -913,44 +921,44 @@ div.columns-5 div.column {
     float: right;
     clear: both;
     margin: 0 0 1em 1em;
-    line-height: 1.25em; 
+    line-height: 1.25em;
     background: #F8EABA;
 }
- 
- 
+
+
 /* Cell sizes for ambox/tmbox/imbox/cmbox/ombox/fmbox/dmbox message boxes */
 th.mbox-text, td.mbox-text {     /* The message body cell(s) */
-    border: none; 
+    border: none;
     padding: 0.25em 0.9em;       /* 0.9em left/right */
     width: 100%;    /* Make all mboxes the same width regardless of text length */
 }
 td.mbox-image {                  /* The left image cell */
-    border: none; 
+    border: none;
     padding: 2px 0 2px 0.9em;    /* 0.9em left, 0px right */
-    text-align: center; 
+    text-align: center;
 }
 td.mbox-imageright {             /* The right image cell */
     border: none;
     padding: 2px 0.9em 2px 0;    /* 0px left, 0.9em right */
-    text-align: center; 
+    text-align: center;
 }
 td.mbox-empty-cell {         /* An empty narrow cell */
     border: none;
     padding: 0px;
     width: 1px;
 }
- 
+
 /* Article message box styles */
 table.ambox {
     margin: 0px 10%;   /* 10% = Will not overlap with other elements */
-    border: 1px solid #aaa; 
+    border: 1px solid #aaa;
     border-left: 10px solid #1e90ff;    /* Default "notice" blue */
-    background: #fbfbfb; 
+    background: #fbfbfb;
 }
 table.ambox + table.ambox {   /* Single border between stacked boxes. */
     margin-top: -1px;
 }
-.ambox th.mbox-text, 
+.ambox th.mbox-text,
 .ambox td.mbox-text {            /* The message body cell(s) */
     padding: 0.25em 0.5em;       /* 0.5em left/right */
 }
@@ -960,7 +968,7 @@ table.ambox + table.ambox {   /* Single border between stacked boxes. */
 .ambox td.mbox-imageright {      /* The right image cell */
     padding: 2px 0.5em 2px 0;    /* 0px left, 0.5em right */
 }
- 
+
 table.ambox-notice {
     border-left: 10px solid #1e90ff;    /* Blue */
 }
@@ -983,11 +991,11 @@ table.ambox-move {
 table.ambox-protection {
     border-left: 10px solid #bba;       /* Gray-gold */
 }
- 
+
 /* Image message box styles */
 table.imbox {
-    margin: 4px 10%; 
-    border-collapse: collapse; 
+    margin: 4px 10%;
+    border-collapse: collapse;
     border: 3px solid #1e90ff;    /* Default "notice" blue */
     background: #fbfbfb;
 }
@@ -997,7 +1005,7 @@ table.imbox {
 .mbox-inside .imbox {    /* For imboxes inside other templates. */
     margin: 4px;
 }
- 
+
 table.imbox-notice {
     border: 3px solid #1e90ff;    /* Blue */
 }
@@ -1027,15 +1035,15 @@ table.imbox-license {
 table.imbox-featured {
     border: 3px solid #cba135;    /* Brown-gold */
 }
- 
+
 /* Category message box styles */
 table.cmbox {
     margin: 3px 10%;
     border-collapse: collapse;
-    border: 1px solid #aaa; 
+    border: 1px solid #aaa;
     background: #DFE8FF;    /* Default "notice" blue */
 }
- 
+
 table.cmbox-notice {
     background: #D8E8FF;    /* Blue */
 }
@@ -1060,15 +1068,15 @@ table.cmbox-move {
 table.cmbox-protection {
     background: #EFEFE1;    /* Gray-gold */
 }
- 
+
 /* Other pages message box styles */
 table.ombox {
-    margin: 4px 10%; 
-    border-collapse: collapse; 
+    margin: 4px 10%;
+    border-collapse: collapse;
     border: 1px solid #aaa;       /* Default "notice" gray */
     background: #f9f9f9;
 }
- 
+
 table.ombox-notice {
     border: 1px solid #aaa;       /* Gray */
 }
@@ -1091,7 +1099,7 @@ table.ombox-move {
 table.ombox-protection {
     border: 2px solid #bba;       /* Gray-gold */
 }
- 
+
 /* Talk page message box styles */
 table.tmbox {
     margin: 4px 10%;
@@ -1104,10 +1112,10 @@ table.tmbox {
     width: 100%;  /* For Safari and Opera */     /* styles (including mbox-small above) */
 }
 .mbox-inside .tmbox.mbox-small { /* "small" tmboxes should not be small when  */
-    line-height: 1.5em;          /* also "nested", so reset styles that are   */   
+    line-height: 1.5em;          /* also "nested", so reset styles that are   */
     font-size: 100%;             /* set in "mbox-small" above.                */
 }
- 
+
 table.tmbox-speedy {
     border: 2px solid #b22222;    /* Red */
     background: #fee;             /* Pink */
@@ -1128,16 +1136,16 @@ table.tmbox-protection,
 table.tmbox-notice {
     border: 1px solid #c0c090;    /* Gray-brown */
 }
- 
+
 /* Disambig and set index box styles */
 table.dmbox {
-    clear: both; 
-    margin: 0.9em 1em; 
-    border-top: 1px solid #ccc; 
-    border-bottom: 1px solid #ccc; 
+    clear: both;
+    margin: 0.9em 1em;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
     background: transparent;
 }
- 
+
 /* Footer and header message box styles */
 table.fmbox {
     clear: both;
@@ -1166,7 +1174,7 @@ div.mw-cascadeprotectedwarning {
     background: #ffdbdb;
     padding: 0.25em 0.9em;
 }
-/* Div based "system" style fmbox messages. Used in 
+/* Div based "system" style fmbox messages. Used in
    [[MediaWiki:Noarticletext]] and [[MediaWiki:Readonly lag]]. */
 div.mw-lag-warn-normal,
 div.noarticletext,
@@ -1177,9 +1185,9 @@ div.fmbox-system {
     background: #f9f9f9;
     padding: 0.25em 0.9em;
 }
- 
-/* These mbox-small classes must be placed after all other 
-   ambox/tmbox/ombox etc classes. "body.mediawiki" is so 
+
+/* These mbox-small classes must be placed after all other
+   ambox/tmbox/ombox etc classes. "body.mediawiki" is so
    they override "table.ambox + table.ambox" above. */
 body.mediawiki table.mbox-small {   /* For the "small=yes" option. */
     clear: right;
@@ -1196,8 +1204,8 @@ body.mediawiki table.mbox-small-left {   /* For the "small=left" option. */
     font-size: 88%;
     line-height: 1.25em;
 }
- 
- 
+
+
 /* Support for Template:IPA, Template:Unicode and Template:Polytonic.
    The second declarations reset the styles for all browsers except
    IE6, which chokes on the empty comment tags. Please copy any changes
@@ -1225,40 +1233,40 @@ body.mediawiki table.mbox-small-left {   /* For the "small=left" option. */
 .polytonic {
     font-family: "Athena Unicode", Gentium, "Palatino Linotype",
                  "Arial Unicode MS", "Lucida Sans Unicode",
-                 "Lucida Grande", Code2000; 
+                 "Lucida Grande", Code2000;
     font-family /**/: inherit;
 }
- 
+
 #wpSave {
     font-weight: bold;
 }
- 
+
 /* class hiddenStructure is defunct. See [[Wikipedia:hiddenStructure]] */
 .hiddenStructure {
     display: inline ! important;
-    color: #f00; 
+    color: #f00;
     background-color: #0f0;
 }
- 
+
 /* suppress missing interwiki image links where #ifexist cannot
-   be used due to high number of requests see .hidden-redlink on 
+   be used due to high number of requests see .hidden-redlink on
    http://meta.wikimedia.org/wiki/MediaWiki:Common.css
 */
 .check-icon a.new {
-    display: none; 
+    display: none;
 /* INVALID    speak: none; */
 }
- 
+
 /* Removes underlines from links */
-.nounderlines a { 
+.nounderlines a {
     text-decoration: none;
 }
- 
+
 /* Remove underline from IPA links */
 .IPA a:link, .IPA a:visited {
     text-decoration: none;
 }
- 
+
 /* Standard Navigationsleisten, aka box hiding thingy
    from .de.  Documentation at [[Wikipedia:NavFrame]]. */
 div.NavFrame {
@@ -1307,11 +1315,11 @@ a.NavToggle {
     font-weight: normal;
     font-size: 90%;
 }
- 
+
 /* Coloured watchlist numbers */
 .mw-plusminus-pos { color: #006400; } /* dark green */
 .mw-plusminus-neg { color: #8B0000; } /* dark red */
- 
+
 .rellink,
 .dablink {
     font-style: italic;
@@ -1321,13 +1329,13 @@ a.NavToggle {
 .dablink i {
     font-style: normal;
 }
- 
+
 /* Style for horizontal UL lists */
 .horizontal ul {
     padding: 0;
     margin: 0;
 }
-.horizontal li { 
+.horizontal li {
     padding: 0 0.6em 0 0.4em;
     display: inline;
     border-right: 1px solid;
@@ -1336,13 +1344,13 @@ a.NavToggle {
     border-right: none;
     padding-right: 0;
 }
- 
+
 /* Allow transcluded pages to display in lists rather than a table.
    Compatible in Firefox; incompatible in IE6. */
 .listify td    { display: list-item; }
 .listify tr    { display: block; }
 .listify table { display: block; }
- 
+
 /* Geographical coordinates defaults. See [[Template:Coord/link]]
    for how these are used. The classes "geo", "longitude", and
    "latitude" are used by the [[Geo microformat]].
@@ -1350,7 +1358,7 @@ a.NavToggle {
 .geo-default, .geo-dms, .geo-dec  { display: inline; }
 .geo-nondefault, .geo-multi-punct { display: none; }
 .longitude, .latitude             { white-space: nowrap; }
- 
+
 /* When <div class="nonumtoc"> is used on the table of contents,
    the ToC will display without numbers */
 .nonumtoc .tocnumber { display: none; }
@@ -1361,11 +1369,11 @@ a.NavToggle {
     margin: .3em 0 0;
     padding: 0;
 }
-.nonumtoc #toc ul ul, 
-.nonumtoc .toc ul ul { 
-    margin: 0 0 0 2em; 
+.nonumtoc #toc ul ul,
+.nonumtoc .toc ul ul {
+    margin: 0 0 0 2em;
 }
- 
+
 /* Allow limiting of which header levels are shown in a TOC;
    <div class="toclimit-3">, for instance, will limit to
    showing ==headings== and ===headings=== but no further
@@ -1378,12 +1386,12 @@ a.NavToggle {
 .toclimit-5 .toclevel-5,
 .toclimit-6 .toclevel-6,
 .toclimit-7 .toclevel-7 { display: none; }
- 
+
 /* Styling for Template:Quote */
-blockquote.templatequote { 
-     margin-top: 0; 
+blockquote.templatequote {
+     margin-top: 0;
 }
-blockquote.templatequote div.templatequotecite { 
+blockquote.templatequote div.templatequotecite {
     line-height: 1em;
     text-align: left;
     padding-left: 2em;
@@ -1392,14 +1400,14 @@ blockquote.templatequote div.templatequotecite {
 blockquote.templatequote div.templatequotecite cite {
     font-size: 85%;
 }
- 
+
 div.user-block {
     padding: 5px;
     border: 1px solid #A9A9A9;
     background-color: #FFEFD5;
 }
- 
-/* Prevent line breaks in silly places: 
+
+/* Prevent line breaks in silly places:
    1) links when we don't want them to
    2) HTML formulae
    3) Ref tags with group names <ref group="Note"> --> "[Note 1]"
@@ -1407,13 +1415,13 @@ div.user-block {
 .nowraplinks a,
 span.texhtml,
 sup.reference a { white-space: nowrap; }
- 
+
 /* For template documentation */
 .template-documentation {
     clear: both;
     margin: 1em 0 0 0;
-    border: 1px solid #aaa; 
-    background-color: #ecfcf4; 
+    border: 1px solid #aaa;
+    background-color: #ecfcf4;
     padding: 5px;
 }
 
@@ -1421,7 +1429,7 @@ div.thumbinner {
      margin: 0 auto;
      font-size: 14px;
 }
- 
+
 .thumbinner {
 min-width: 100px;
 font-family: 'Open Sans', sans-serif;
@@ -1429,23 +1437,23 @@ font-weight: 400;
 color: #504f4f;
 line-height: 20px;
 }
- 
+
 /* Inline divs in ImageMaps (code borrowed from de.wiki) */
 .imagemap-inline div {
     display: inline;
 }
- 
+
 /* Increase the height of the image upload box */
 #wpUploadDescription {
     height: 13em;
 }
- 
+
 /* Reduce line-height for <sup> and <sub> */
 sup, sub {
     line-height: 1em;
 }
- 
- 
+
+
 li.gallerybox div.thumb {
       box-shadow: 0px 0.5px 1px 0px #ccc;
 }
@@ -1475,20 +1483,20 @@ box-shadow: inset 0 0 0 .5px #347bff;
 .ns-100 .gallerybox .thumb img {
     background: white;
 }
- 
+
 /* Prevent floating boxes from overlapping any category listings,
    file histories, edit previews, and edit [Show changes] views */
-#mw-subcategories, #mw-pages, #mw-category-media, 
+#mw-subcategories, #mw-pages, #mw-category-media,
 #filehistory, #wikiPreview, #wikiDiff {
     clear: both;
 }
- 
+
 /* Selectively hide headers in WikiProject banners */
 .wpb .wpb-header             { display: none; }
 .wpbs-inner .wpb .wpb-header { display: block; }     /* for IE */
 .wpbs-inner .wpb .wpb-header { display: table-row; } /* for real browsers */
 .wpbs-inner .wpb-outside     { display: none; }      /* hide things that should only display outside shells */
- 
+
 legend {
 font-family: 'Open Sans', sans-serif;
 font-size: 22px;
@@ -1590,7 +1598,7 @@ div.tleft, div.tright, .pull-right {
 
 .siteTagline, .siteTagline a {
      font-size: 10px;
-} 
+}
 
 .siteTitle {
      font-size: 20px;
@@ -1610,8 +1618,8 @@ div.tleft, div.tright, .pull-right {
     background-image: url(/mediawiki/images/9/98/0033_banner.jpg);
 }
 
-.navbar-nav { 
-     backface-visibility: hidden; 
+.navbar-nav {
+     backface-visibility: hidden;
 }
 
 .mw-body {
@@ -1635,7 +1643,7 @@ a.back-to-top {
 	display: none;
 	width: 60px;
 	height: 60px;
-	text-indent: -9999px; 
+	text-indent: -9999px;
 	position: fixed;
 	z-index: 999;
 	right: 20px;
@@ -1682,7 +1690,7 @@ ul.mw-gallery-packed li.gallerybox div.thumb img:hover {
 }
 
 /* FancyBoxThumbs caption */
-.fancybox-title-float-wrap .child { 
+.fancybox-title-float-wrap .child {
 	background: #e9ecef; /* matches Chameleon navbar color */
 	text-shadow: none; /* removes text shadow */
 	color: #252525; /* caption text color */
