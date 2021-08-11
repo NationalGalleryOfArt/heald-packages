@@ -2,7 +2,7 @@
 
 /* Restore red links for users HEAL-147 */
 a.new {
-color: #bc0000 !important;
+color: #9b1b2f !important;
 text-decoration: auto;
 pointer-events: auto;
 }
