@@ -1679,6 +1679,10 @@ ul.mw-gallery-packed li.gallerybox div.thumb img:hover {
     transition: all 0.3s ease;
 }
 
+ul.gallery {
+	margin: 0;
+}
+
 /* </source> */
 
 .toc ul ul {
