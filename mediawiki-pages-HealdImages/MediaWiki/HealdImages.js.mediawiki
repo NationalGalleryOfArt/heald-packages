@@ -6,4 +6,14 @@ $( function () {
 	if ( $imageInfo.length ) {
 		$imageInfo.appendTo( $parserOutput );
 	}
+	moveFreeTextNs6();
 } );
+
+
+function moveFreeTextNs6(){
+	// Move freetext in File namespace HEAL-146
+	var target = $('.ns-6 #file .mw-filepage-resolutioninfo');
+	if(target.length){
+		$('#free-text-section').detach().insertBefore(target);
+	}
+}

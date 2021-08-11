@@ -64,7 +64,6 @@
 </div>
 </div>
 </div>
-</div><!--- /about-image-section -->
 Download an {{#ask:
 [[{{FULLPAGENAME}}]] OR [[-Has subobject::{{FULLPAGENAME}}]] [[Date::+]]
 |?Place
@@ -92,5 +91,7 @@ Download an {{#ask:
 |?EndQuestionable
 |format=RDF
 }} export
+</div><!--- /about-image-section -->
+<div id="free-text-section" class="my-3"><!-- the tag is left open intentionally -->
 [[Category:Images]]__NOEDITSECTION__
 </includeonly>
