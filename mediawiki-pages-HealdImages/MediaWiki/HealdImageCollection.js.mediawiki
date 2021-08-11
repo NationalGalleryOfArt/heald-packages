@@ -1,2 +1,9 @@
 // Adds responsive columns to the SMW filtered format output for the ImageCollection
 $('.heald-collection .filtered-views-container').addClass('card-columns');
+
+$(function() {
+    $('#resetfilters').click(function() {
+        location.reload();
+    });
+    $('#reset-wrapper').detach().appendTo('.filtered-filters');
+});

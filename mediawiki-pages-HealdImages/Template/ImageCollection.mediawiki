@@ -4,8 +4,8 @@
 [[~*Creation]]
 [[File:+]]
 |?Date |+filter=number |+number filter sliders=range|+hide=yes |+number filter step=1
-|?Collection filter |+filter=value |+value filter max checkboxes=5 |+value filter switches=and or
 |?Keyword |+filter=value |+value filter max checkboxes=0
+|?Collection filter |+filter=value |+value filter max checkboxes=5 |+value filter switches=and or
 |format=filtered
 |link=none
 |views=list
@@ -15,6 +15,7 @@
 |outro=</div>
 |limit={{{1|50}}}
 }}
+<div id="reset-wrapper" class="filtered-filter d-block d-lg-flex align-items-center justify-content-end ml-4 ml-cmln-auto mr-3 mb-3"><span id="resetfilters" class="mw-ui-button mt-cmln-3">Reset all filters</span></div>
 </includeonly><noinclude>[[Category:Mediawiki-pages-heald-images]]
 ;Usage
 <pre>
@@ -23,4 +24,3 @@
 }}
 </pre>
 </noinclude>
-

@@ -1,16 +1,15 @@
 <includeonly>
 <div class="card border-0">
   <div class="badges"><!--
+  -->{{#if:{{#ask:[[{{{1|}}}]][[Keyword::+]] |link=none}}
+       |<span class="has-keyword"></span>
+     }}<!--
   -->{{#if:{{#ask:[[{{{1|}}}]][[Collection filter::Has person]] |link=none}}
        |<span class="has-person"></span>
      }}<!--
-  -->{{#if:{{#ask:[[{{{1|}}}]][[Collection filter::Has keyword]] |link=none}}
-       |<span class="has-keyword"></span>
-     }}<!--
   -->{{#if:{{#ask:[[{{{1|}}}]][[Collection filter::Has place]] |link=none}}
        |<span class="has-place"></span>
-     }}
-  </div><!--
+     }}</div><!--
   -->[[{{#explode:{{{1|}}}|#|0}}||link={{#explode:{{{1|}}}|#|0}}|class=img-fluid card-img-top rounded]]<!--
   --><div class="caption-wrapper"><!--
      --><span class="caption">{{#show: {{#explode:{{{1|}}}|#|0}}|?Image Title}}</span><!--

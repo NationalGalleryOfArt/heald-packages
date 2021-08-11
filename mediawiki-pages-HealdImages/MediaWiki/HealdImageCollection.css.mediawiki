@@ -49,23 +49,27 @@
 	bottom:0
 }
 .heald-collection .card .caption {
-	 display:block;
-	 font-size:1.1rem;
-	 font-weight:bold;
-	 color:#222;
-	 text-align:center;
+	display:block;
+	font-size:1.1rem;
+	font-weight:bold;
+	color:#222;
+	text-align:center;
 }
 .heald-collection .filtered .filtered-filters {
-	 margin: 0;
-	 display: flex;
-	 flex-wrap: wrap;
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	background: #f7f7f7;
+}
+.heald-collection .filtered .filtered-filters .filtered-filter .filtered-filter-label {
+	background: #f7f7f7;
 }
 .heald-collection .filtered-views, 
 .heald-collection .filtered-filters {
-	 border: 0;
+	border: 0;
 }
 .heald-collection .filtered .filtered-views .filtered-views-container {
-	  padding: 0;
+	padding: 0;
 }
 .heald-collection .filtered-filter-container {
 	background: #f7f7f7;
@@ -73,21 +77,44 @@
 	border-radius: 5px;
 	text-align: center;
 }
+.heald-collection .filtered-filters .filtered-number {
+	margin: 1em 0 0 0;
+}
 .heald-collection .filtered-filters .filtered-number,
 .heald-collection .filtered-filters .filtered-value {
-	margin: 1em 0 0 0;
 	border: 0;
 }
 .heald-collection .filtered-filters .filtered-number {
 	flex: 0 0 100%;
 }
-.heald-collection .filtered-value-checkboxes {
-	  display: flex;
-	  flex-direction: column;
-}
 .heald-collection .filtered-filters .filtered-value .filtered-value-option {
-	  width: 100%;
-	  text-align: left;
+	width: 100%;
+	text-align: left;
+}
+.heald-collection .filtered-value-andor label {
+	text-transform: lowercase;
+}
+.heald-collection .filtered-value .filtered-filter-container,
+.heald-collection .filtered-value-checkboxes, .heald-collection .filtered-value-checkboxes *,
+.heald-collection .filtered-value-switches, .heald-collection .filtered-value-switches * {
+	display: flex !important;
+	flex-direction: row !important;
+	white-space: nowrap !important;
+	align-items: center !important;
+	padding: .15rem .25rem  !important;
+	margin: 0 .15rem  !important;
+}
+.heald-collection .filtered-filters .filtered-value .filtered-value-switches {
+	border-bottom: 0;
+        order: 1 !important;
+}
+.heald-collection .filtered-filters .filtered-value .filtered-value-checkboxes {
+        order: 0 !important;
+}
+.heald-collection .filtered-filters .filtered-value {
+	border: 0 !important;
+	padding: 1em;
+	margin: 1em 0 0 0;
 }
 .heald-collection .card .badges {
 	position: absolute;
@@ -127,4 +154,3 @@
 }
 @media only screen and (max-width:990px){.heald-collection .card{margin-bottom:30px}
 }
-
