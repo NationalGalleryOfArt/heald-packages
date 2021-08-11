@@ -1,0 +1,9 @@
+/* CSS placed here will affect registered users only */
+
+/* Restore red links for users HEAL-147 */
+a.new {
+color: #bc0000 !important;
+text-decoration: auto;
+pointer-events: auto;
+}
+

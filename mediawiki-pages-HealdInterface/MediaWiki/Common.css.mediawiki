@@ -1699,3 +1699,10 @@ ul.gallery {
 	text-shadow: none; /* removes text shadow */
 	color: #252525; /* caption text color */
 }
+
+/* Hide red links for anonymous HEAL-147 */
+a.new {
+	color: inherit !important;
+	text-decoration: inherit;
+	pointer-events: none;
+}
