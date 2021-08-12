@@ -94,5 +94,5 @@ Download an {{#ask:
 }} export
 </div><!--- /about-image-section -->
 <div id="free-text-section" class="my-3"><!-- the tag is left open intentionally -->
-[[Category:Images]]__NOEDITSECTION__
+[[Category:Images]]__NOEDITSECTION__{{#if: {{{Image Title|}}}|{{DISPLAYTITLE:{{{Image Title|}}}}}}}
 </includeonly>
