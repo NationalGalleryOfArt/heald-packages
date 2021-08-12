@@ -128,28 +128,40 @@
 	right: 0;
 	display: flex;
 }
+.has-person::before,
+.has-keyword::before,
+.has-place::before {
+	margin: 0 .5rem 0 0 !important;
+}
 .heald-collection .card .has-person::before,
 .heald-collection .card .has-keyword::before,
 .heald-collection .card .has-place::before {
+	margin: .5rem .5rem 0 0 !important;
+}
+.heald-collection .card .has-person::before,
+.heald-collection .card .has-keyword::before,
+.heald-collection .card .has-place::before,
+.has-person::before,
+.has-keyword::before,
+.has-place::before {
 	content: '';
 	display: inline-block;
 	width: 24px;
 	height: 24px;
 	background: #fff;
-	margin: .5rem .5rem 0 0;
 	background-size: contain;
 	border-radius: 50%;
 	opacity: .75;
 	z-index: 2;
 	filter: invert(1);
 }
-.heald-collection .card .has-person::before {
+.heald-collection .card .has-person::before, .has-person::before {
 	background-image: url(https://www.svgrepo.com/show/307863/graphic-designer-creative-draw-artist.svg);
 }
-.heald-collection .card .has-place::before {
+.heald-collection .card .has-place::before, .has-place::before {
 	background-image: url(https://www.svgrepo.com/show/161749/earth-globe.svg);
 }
-.heald-collection .card .has-keyword::before {
+.heald-collection .card .has-keyword::before, .has-keyword::before {
 	background-image: url(https://www.svgrepo.com/show/166933/key.svg);
 }
 @media only screen and (max-width:990px){.heald-collection .card{margin-bottom:30px}

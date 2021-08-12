@@ -2,6 +2,9 @@
 $('.heald-collection .filtered-views-container').addClass('card-columns');
 
 $(function() {
+    $('input[value="Has place"] + .filtered-value-option-label').addClass('has-place');
+    $('input[value="Has person"] + .filtered-value-option-label').addClass('has-person');
+    
     $('#resetfilters').click(function() {
         location.reload();
     });
