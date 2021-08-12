@@ -14,6 +14,7 @@
 |intro=<div class="heald-collection">
 |outro=</div>
 |limit={{{1|50}}}
+|order=desc
 }}
 <div id="reset-wrapper" class="filtered-filter d-block d-lg-flex align-items-center justify-content-end ml-4 ml-cmln-auto mr-3 mb-3"><span id="resetfilters" class="mw-ui-button mt-cmln-3">Reset all filters</span></div>
 </includeonly><noinclude>[[Category:Mediawiki-pages-heald-images]]
