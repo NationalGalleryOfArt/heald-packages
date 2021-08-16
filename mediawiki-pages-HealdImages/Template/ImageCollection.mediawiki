@@ -16,7 +16,9 @@
 |limit={{{1|50}}}
 |order=desc
 }}
-<div id="reset-wrapper" class="filtered-filter d-block d-lg-flex align-items-center justify-content-end ml-4 ml-cmln-auto mr-3 mb-3"><span id="resetfilters" class="mw-ui-button mt-cmln-3">Reset all filters</span></div>
+<div id="reset-wrapper" class="d-block pl-4 w-100"><span id="resetfilters" class="mw-ui-button mt-cmln-3">Reset all filters</span>
+<small>Max {{{1|50}}} images shown. [[Special:ListFiles|See all]]</small>
+</div>
 </includeonly><noinclude>[[Category:Mediawiki-pages-heald-images]]
 ;Usage
 <pre>
