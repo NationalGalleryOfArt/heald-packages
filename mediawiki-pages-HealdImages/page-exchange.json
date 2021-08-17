@@ -183,6 +183,11 @@
                     "name": "Inscription",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Property%2FInscription.mediawiki"
+                },
+                {
+                    "name": "A-collection",
+                    "namespace": "NS_WIDGET",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdImages\/Widget%2FA-collection.mediawiki"
                 }
             ],
             "requiredExtensions": [

@@ -10,9 +10,9 @@
   -->{{#if:{{#ask:[[{{{1|}}}]][[Collection filter::Has place]] |link=none}}
        |<span class="has-place"></span>
      }}</div><!--
-  -->[[{{#explode:{{{1|}}}|#|0}}||link={{#explode:{{{1|}}}|#|0}}|class=img-fluid card-img-top rounded]]<!--
-  --><div class="caption-wrapper"><!--
-     --><span class="caption">{{#show: {{#explode:{{{1|}}}|#|0}}|?Image Title}}</span><!--
-     --><div class="small text-center">{{#show: {{#explode:{{{1|}}}|#|0}}|?Place |link=none}}</div>
-     </div>
+  -->{{#widget: a-collection
+       |link={{fullurl:{{#explode:{{{1|}}}|#|0}}}}
+       |title={{#show: {{#explode:{{{1|}}}|#|0}}|?Image Title}}
+       |image={{filepath:{{PAGENAME:{{#explode:{{{1|}}}|#|0}}}}}}
+     }}
 </div></includeonly><noinclude>[[Category:Mediawiki-pages-heald-images]]</noinclude>

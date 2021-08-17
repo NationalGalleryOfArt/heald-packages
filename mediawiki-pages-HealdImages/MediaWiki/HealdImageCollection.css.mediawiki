@@ -22,6 +22,8 @@
 .heald-collection .card a {
 	position: relative;
 	z-index: 0;
+	height: 100%;
+	display: block;
 }
 .heald-collection .card img {
 	transition:all .5s ease 0s;
@@ -141,6 +143,9 @@
 .heald-collection .card .has-person::before,
 .heald-collection .card .has-keyword::before,
 .heald-collection .card .has-place::before,
+input[value="Has person"] + .filtered-value-option-label::before,
+input[value="Has place"] + .filtered-value-option-label::before,
+.filtered-filter:nth-child(2) .filtered-filter-label::before,
 .has-person::before,
 .has-keyword::before,
 .has-place::before {
@@ -150,19 +155,35 @@
 	height: 24px;
 	background: #fff;
 	background-size: contain;
+        background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0 .25rem 0 -.25rem;
 	border-radius: 50%;
 	opacity: .75;
 	z-index: 2;
 	filter: invert(1);
 }
-.heald-collection .card .has-person::before, .has-person::before {
+.heald-collection .card .has-person::before, .has-person::before, input[value="Has person"] + .filtered-value-option-label::before {
 	background-image: url(https://www.svgrepo.com/show/307863/graphic-designer-creative-draw-artist.svg);
 }
-.heald-collection .card .has-place::before, .has-place::before {
+.heald-collection .card .has-place::before, .has-place::before, input[value="Has place"] + .filtered-value-option-label::before {
 	background-image: url(https://www.svgrepo.com/show/161749/earth-globe.svg);
 }
-.heald-collection .card .has-keyword::before, .has-keyword::before {
-	background-image: url(https://www.svgrepo.com/show/166933/key.svg);
+.heald-collection .card .has-keyword::before, .has-keyword::before, .filtered-filter:nth-child(2) .filtered-filter-label::before  {
+	background-image: url(https://www.svgrepo.com/show/166933/key.svg) !important;
+}
+.filtered-filter:nth-child(2) .filtered-filter-label::before  {
+	margin-bottom: -6px;
+}
+.irs-grid-text {
+	font-size: 15px;
+}
+.irs-to, .irs-from {
+	background-color: #01443e !important;
+}
+.irs-to, .irs-from, .irs-min, .irs-max {
+	font-size: 15px;
+	top: -8px !important;
 }
 @media only screen and (max-width:990px){.heald-collection .card{margin-bottom:30px}
 }
