@@ -26,7 +26,7 @@
 [[File:+]]
 [[Category:Images]]
 |limit=0
-|searchlabel=See all
+|searchlabel=See all images.
 |format=gallery
 |autocaptions=no
 }}
