@@ -177,6 +177,7 @@ input[value="Has place"] + .filtered-value-option-label::before,
 }
 .irs-grid-text {
 	font-size: 15px;
+        color: #01443e;
 }
 .irs-to, .irs-from {
 	background-color: #01443e !important;
