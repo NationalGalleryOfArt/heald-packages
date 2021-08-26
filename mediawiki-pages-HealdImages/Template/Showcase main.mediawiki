@@ -22,4 +22,4 @@
 |mode=packed
 |heights=320px
 }}
-</div><noinclude>[[Category:Mediawiki-pages-heald-images]]</noinclude>
+</div>__NOCACHE__<noinclude>[[Category:Mediawiki-pages-heald-images]]</noinclude>
