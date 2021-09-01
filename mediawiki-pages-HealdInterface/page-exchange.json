@@ -168,6 +168,21 @@
                     "name": "Iframe",
                     "namespace": "NS_WIDGET",
                     "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/Widget%2FIframe.mediawiki"
+                },
+                {
+                    "name": "Privacypage",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FPrivacypage.mediawiki"
+                },
+                {
+                    "name": "Aboutpage",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FAboutpage.mediawiki"
+                },
+                {
+                    "name": "Disclaimers",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/NationalGalleryOfArt\/heald-packages\/main\/mediawiki-pages-HealdInterface\/MediaWiki%2FDisclaimers.mediawiki"
                 }
             ],
             "requiredExtensions": []
