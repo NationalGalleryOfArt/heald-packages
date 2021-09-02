@@ -26,7 +26,6 @@ font-weight: 400;
 }
 
 .content ul {
-list-style: none;
 margin-bottom: 8px;
 }
 
