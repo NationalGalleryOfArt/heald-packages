@@ -1510,6 +1510,13 @@ margin: 10px 0px 10px 0px;
      }
  }
 
+/* StickyTOC fix to account for top ribbon */
+@media screen and (min-width: 761px) {
+.stickytoc.force-sticky {
+  top: 120px !important;
+}
+}
+
 @media screen and (max-width: 767px) {
 
 select, textarea, input, input[type="search"], input[name="search"], input[name="hidden"] {
